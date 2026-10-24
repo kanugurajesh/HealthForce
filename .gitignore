@@ -11,9 +11,21 @@ __pycache__/
 .ruff_cache/
 .venv/
 venv/
+*.egg-info/
+build/
+dist/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
 
 # backend runtime data (database + uploaded documents)
 backend/data/
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
 
 # node / next
 node_modules/
@@ -25,5 +37,6 @@ frontend/next-env.d.ts
 # os / editors
 .DS_Store
 Thumbs.db
+*.log
 .vscode/
 .idea/
