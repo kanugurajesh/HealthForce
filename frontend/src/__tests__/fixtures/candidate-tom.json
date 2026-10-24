@@ -1,0 +1,1025 @@
+{
+ "id": "7ddd1437-0e76-4d3c-b0dd-a717d68a976a",
+ "full_name": "Tom Becker",
+ "headline": "ICU RN, 7 yrs, CCRN",
+ "location": "Columbus, OH",
+ "status": "screening",
+ "job": {
+  "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+  "title": "ICU Registered Nurse"
+ },
+ "eligibility": "requirement_not_met",
+ "score": 79,
+ "credential_statuses": [
+  "expired",
+  "verified"
+ ],
+ "missing_credentials": [],
+ "unreviewed_claims": 0,
+ "flagged_claims": 0,
+ "nearest_expiration": {
+  "date": "2027-08-31",
+  "type_code": "ACLS",
+  "type_label": "Advanced Cardiovascular Life Support (ACLS)",
+  "days": 312
+ },
+ "next_action": "Request renewed Registered Nurse (RN) License.",
+ "tasks_total": 0,
+ "tasks_done": 0,
+ "updated_at": "2026-10-23T16:05:04.114414",
+ "email": "tom.becker@example.com",
+ "summary": "Mock summary \u2014 1 position(s) listed, most recent: Staff Nurse, Medical ICU; credentials mentioned: Registered Nurse, BLS Provider, ACLS, CCRN; education: Bachelor of Science in Nursing.",
+ "summary_source": "mock",
+ "summary_reviewed": false,
+ "allowed_transitions": [
+  "interview",
+  "not_selected",
+  "withdrawn"
+ ],
+ "experiences": [
+  {
+   "id": "37d19b9a-d4ea-44d6-aeb6-4cd40902bee2",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "Staff Nurse, Medical ICU \u2014 Riverside General Hospital, Columbus, OH | 10/2019 \u2013 Present",
+   "evidence_start": 158,
+   "evidence_end": 245,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.822550",
+   "review_note": null,
+   "flags": [],
+   "created_at": "2026-10-23T16:05:03.680054",
+   "updated_at": "2026-10-23T16:05:03.823034",
+   "title": "Staff Nurse, Medical ICU",
+   "employer": "Riverside General Hospital",
+   "settings": [
+    "critical_care"
+   ],
+   "start_date": "2019-10-01",
+   "end_date": null,
+   "is_current": true,
+   "start_text": "10/2019",
+   "end_text": "Present",
+   "description": "Ventilator management and titration of vasoactive infusions Hemodynamic monitoring with arterial lines; documentation in Epic",
+   "duration_years": 7.1
+  }
+ ],
+ "qualifications": [
+  {
+   "id": "968adb2f-3ce5-435c-940d-72e6611041b9",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "Bachelor of Science in Nursing \u2014 Ohio Valley University, 2016",
+   "evidence_start": 387,
+   "evidence_end": 448,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.838958",
+   "review_note": null,
+   "flags": [],
+   "created_at": "2026-10-23T16:05:03.680270",
+   "updated_at": "2026-10-23T16:05:03.839327",
+   "code": "BSN",
+   "label": "Bachelor of Science in Nursing (BSN)",
+   "name": "Bachelor of Science in Nursing",
+   "institution": "Ohio Valley University",
+   "completion_year": 2016
+  }
+ ],
+ "skills": [
+  {
+   "id": "6cb5e30e-5e68-4f8d-b151-4e5291fb210d",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "Epic EHR",
+   "evidence_start": 735,
+   "evidence_end": 743,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.851801",
+   "review_note": null,
+   "flags": [],
+   "created_at": "2026-10-23T16:05:03.680447",
+   "updated_at": "2026-10-23T16:05:03.852177",
+   "code": "epic_ehr",
+   "label": "EHR \u2014 Epic",
+   "name": "Epic EHR"
+  },
+  {
+   "id": "640b8594-eb7e-4b6d-b151-e19319c0349e",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "Hemodynamic monitoring",
+   "evidence_start": 310,
+   "evidence_end": 332,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.865901",
+   "review_note": null,
+   "flags": [],
+   "created_at": "2026-10-23T16:05:03.680444",
+   "updated_at": "2026-10-23T16:05:03.866288",
+   "code": "hemodynamic_monitoring",
+   "label": "Hemodynamic monitoring",
+   "name": "Hemodynamic monitoring"
+  },
+  {
+   "id": "1853114e-049c-452a-b710-6776d1dbecf0",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "Sepsis protocols",
+   "evidence_start": 745,
+   "evidence_end": 761,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.880015",
+   "review_note": null,
+   "flags": [],
+   "created_at": "2026-10-23T16:05:03.680450",
+   "updated_at": "2026-10-23T16:05:03.880413",
+   "code": "sepsis_protocols",
+   "label": "Sepsis protocols",
+   "name": "Sepsis protocols"
+  },
+  {
+   "id": "c9d5e40e-6608-4c99-9d78-9cdf89b21abf",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "Telemetry",
+   "evidence_start": 763,
+   "evidence_end": 772,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.892781",
+   "review_note": null,
+   "flags": [],
+   "created_at": "2026-10-23T16:05:03.680453",
+   "updated_at": "2026-10-23T16:05:03.893170",
+   "code": "telemetry",
+   "label": "Telemetry / cardiac monitoring",
+   "name": "Telemetry"
+  },
+  {
+   "id": "13a6c3aa-9a22-40b4-b1bf-6a37ed51eb2b",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "Ventilator management",
+   "evidence_start": 248,
+   "evidence_end": 269,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.905048",
+   "review_note": null,
+   "flags": [],
+   "created_at": "2026-10-23T16:05:03.680441",
+   "updated_at": "2026-10-23T16:05:03.905405",
+   "code": "ventilator_management",
+   "label": "Ventilator management",
+   "name": "Ventilator management"
+  }
+ ],
+ "credentials": [
+  {
+   "id": "581a2855-24e8-4241-a50f-0485942647ca",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "ACLS Provider \u2014 expires 08/2027",
+   "evidence_start": 572,
+   "evidence_end": 603,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.918144",
+   "review_note": "Checked against the source document.",
+   "flags": [
+    "Expiration date '08/2027' has month precision; interpreted as Aug 31, 2027."
+   ],
+   "created_at": "2026-10-23T16:05:03.679761",
+   "updated_at": "2026-10-23T16:05:03.918530",
+   "type_code": "ACLS",
+   "type_label": "Advanced Cardiovascular Life Support (ACLS)",
+   "name": "ACLS",
+   "issuer": null,
+   "identifier": null,
+   "jurisdiction": null,
+   "issue_date": null,
+   "expiration_date": "2027-08-31",
+   "expiration_text": "08/2027",
+   "verification_status": "not_started",
+   "verification_method": null,
+   "verification_reference": null,
+   "verified_at": null,
+   "verified_by_name": null,
+   "status": "pending_verification",
+   "status_reasons": [
+    "Reviewed, but not yet verified against a primary source.",
+    "Self-reported on a resume, not taken from a credential document."
+   ],
+   "expiring_soon": false,
+   "days_until_expiry": 312,
+   "simulated_verification": false,
+   "conflicts_with": []
+  },
+  {
+   "id": "285a8325-1c7a-4bec-b5f6-0aa4acb742bb",
+   "document_id": "00f30ebd-6e32-4339-955d-ec5857f6d8a8",
+   "source": "mock",
+   "evidence_quote": "ACLS Provider \u2014 Advanced Cardiovascular Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Tom Becker\nIssue Date: 08/2025\nRenew By: 08/2027\neCard Code: MRTN-22417-A",
+   "evidence_start": 39,
+   "evidence_end": 218,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.932060",
+   "review_note": "Checked against the source document.",
+   "flags": [
+    "Expiration date '08/2027' has month precision; interpreted as Aug 31, 2027."
+   ],
+   "created_at": "2026-10-23T16:05:03.778445",
+   "updated_at": "2026-10-23T16:05:04.051739",
+   "type_code": "ACLS",
+   "type_label": "Advanced Cardiovascular Life Support (ACLS)",
+   "name": "ACLS Provider \u2014 Advanced Cardiovascular Life Support",
+   "issuer": "Midwest Resuscitation Training Network",
+   "identifier": "MRTN-22417-A",
+   "jurisdiction": null,
+   "issue_date": "2025-08-01",
+   "expiration_date": "2027-08-31",
+   "expiration_text": "08/2027",
+   "verification_status": "verified",
+   "verification_method": "manual_primary_source",
+   "verification_reference": "Primary-source lookup by reviewer on 2026-10-23 (synthetic demo reference)",
+   "verified_at": "2026-10-23T16:05:04.051366",
+   "verified_by_name": "Casey Reviewer",
+   "status": "verified",
+   "status_reasons": [
+    "Reviewed and verified; valid until Aug 31, 2027."
+   ],
+   "expiring_soon": false,
+   "days_until_expiry": 312,
+   "simulated_verification": false,
+   "conflicts_with": []
+  },
+  {
+   "id": "dd19de10-32af-4eef-93f1-09ab16579251",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "BLS Provider, exp. 08/2027",
+   "evidence_start": 543,
+   "evidence_end": 569,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.948393",
+   "review_note": "Checked against the source document.",
+   "flags": [
+    "Expiration date '08/2027' has month precision; interpreted as Aug 31, 2027."
+   ],
+   "created_at": "2026-10-23T16:05:03.679758",
+   "updated_at": "2026-10-23T16:05:03.948921",
+   "type_code": "BLS",
+   "type_label": "Basic Life Support (BLS)",
+   "name": "BLS Provider",
+   "issuer": null,
+   "identifier": null,
+   "jurisdiction": null,
+   "issue_date": null,
+   "expiration_date": "2027-08-31",
+   "expiration_text": "08/2027",
+   "verification_status": "not_started",
+   "verification_method": null,
+   "verification_reference": null,
+   "verified_at": null,
+   "verified_by_name": null,
+   "status": "pending_verification",
+   "status_reasons": [
+    "Reviewed, but not yet verified against a primary source.",
+    "Self-reported on a resume, not taken from a credential document."
+   ],
+   "expiring_soon": false,
+   "days_until_expiry": 312,
+   "simulated_verification": false,
+   "conflicts_with": []
+  },
+  {
+   "id": "b0bd56a8-694e-42fe-8d89-9fab8e678b71",
+   "document_id": "d05be516-d811-44e9-ad49-920bdafe678d",
+   "source": "mock",
+   "evidence_quote": "BLS Provider \u2014 Basic Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Tom Becker\nIssue Date: 08/2025\nRenew By: 08/2027\neCard Code: MRTN-22417-B",
+   "evidence_start": 39,
+   "evidence_end": 199,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.961938",
+   "review_note": "Checked against the source document.",
+   "flags": [
+    "Expiration date '08/2027' has month precision; interpreted as Aug 31, 2027."
+   ],
+   "created_at": "2026-10-23T16:05:03.748001",
+   "updated_at": "2026-10-23T16:05:04.068007",
+   "type_code": "BLS",
+   "type_label": "Basic Life Support (BLS)",
+   "name": "BLS Provider \u2014 Basic Life Support",
+   "issuer": "Midwest Resuscitation Training Network",
+   "identifier": "MRTN-22417-B",
+   "jurisdiction": null,
+   "issue_date": "2025-08-01",
+   "expiration_date": "2027-08-31",
+   "expiration_text": "08/2027",
+   "verification_status": "verified",
+   "verification_method": "manual_primary_source",
+   "verification_reference": "Primary-source lookup by reviewer on 2026-10-23 (synthetic demo reference)",
+   "verified_at": "2026-10-23T16:05:04.067606",
+   "verified_by_name": "Casey Reviewer",
+   "status": "verified",
+   "status_reasons": [
+    "Reviewed and verified; valid until Aug 31, 2027."
+   ],
+   "expiring_soon": false,
+   "days_until_expiry": 312,
+   "simulated_verification": false,
+   "conflicts_with": []
+  },
+  {
+   "id": "e8dfbab4-073e-4dc7-9cff-89b67b2bae8e",
+   "document_id": "4682b257-60dc-43f1-ade7-118483d97f23",
+   "source": "mock",
+   "evidence_quote": "Certification: CCRN (Adult)\nCertification Number: CC-22417\nIssue Date: June 10, 2025\nExpiration Date: June 14, 2028",
+   "evidence_start": 108,
+   "evidence_end": 223,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.975916",
+   "review_note": null,
+   "flags": [],
+   "created_at": "2026-10-23T16:05:03.807382",
+   "updated_at": "2026-10-23T16:05:04.082624",
+   "type_code": "CCRN",
+   "type_label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+   "name": "CCRN (Adult)",
+   "issuer": "Critical Care Nursing Certification Council",
+   "identifier": "CC-22417",
+   "jurisdiction": null,
+   "issue_date": "2025-06-10",
+   "expiration_date": "2028-06-14",
+   "expiration_text": "June 14, 2028",
+   "verification_status": "verified",
+   "verification_method": "manual_primary_source",
+   "verification_reference": "Primary-source lookup by reviewer on 2026-10-23 (synthetic demo reference)",
+   "verified_at": "2026-10-23T16:05:04.082243",
+   "verified_by_name": "Casey Reviewer",
+   "status": "verified",
+   "status_reasons": [
+    "Reviewed and verified; valid until Jun 14, 2028."
+   ],
+   "expiring_soon": false,
+   "days_until_expiry": 600,
+   "simulated_verification": false,
+   "conflicts_with": []
+  },
+  {
+   "id": "34b3b62d-30be-4234-bbe9-c2ed8993b962",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "CCRN (Critical Care Nursing Certification Council), valid through 06/2028",
+   "evidence_start": 606,
+   "evidence_end": 679,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:03.994870",
+   "review_note": "Checked against the source document.",
+   "flags": [
+    "Expiration date '06/2028' has month precision; interpreted as Jun 30, 2028."
+   ],
+   "created_at": "2026-10-23T16:05:03.679763",
+   "updated_at": "2026-10-23T16:05:03.995263",
+   "type_code": "CCRN",
+   "type_label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+   "name": "CCRN",
+   "issuer": "Critical Care Nursing Certification Council",
+   "identifier": null,
+   "jurisdiction": null,
+   "issue_date": null,
+   "expiration_date": "2028-06-30",
+   "expiration_text": "06/2028",
+   "verification_status": "not_started",
+   "verification_method": null,
+   "verification_reference": null,
+   "verified_at": null,
+   "verified_by_name": null,
+   "status": "pending_verification",
+   "status_reasons": [
+    "Reviewed, but not yet verified against a primary source.",
+    "Self-reported on a resume, not taken from a credential document."
+   ],
+   "expiring_soon": false,
+   "days_until_expiry": 616,
+   "simulated_verification": false,
+   "conflicts_with": []
+  },
+  {
+   "id": "dad0dc14-5977-48b7-a0ce-9f5aec88c2c9",
+   "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "source": "mock",
+   "evidence_quote": "Registered Nurse, Ohio \u2014 License #RN-22417, expires 10/11/2026",
+   "evidence_start": 478,
+   "evidence_end": 540,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:04.009830",
+   "review_note": null,
+   "flags": [],
+   "created_at": "2026-10-23T16:05:03.679752",
+   "updated_at": "2026-10-23T16:05:04.010256",
+   "type_code": "RN_LICENSE",
+   "type_label": "Registered Nurse (RN) License",
+   "name": "Registered Nurse",
+   "issuer": null,
+   "identifier": "RN-22417",
+   "jurisdiction": "Ohio",
+   "issue_date": null,
+   "expiration_date": "2026-10-11",
+   "expiration_text": "10/11/2026",
+   "verification_status": "not_started",
+   "verification_method": null,
+   "verification_reference": null,
+   "verified_at": null,
+   "verified_by_name": null,
+   "status": "expired",
+   "status_reasons": [
+    "Expired on Oct 11, 2026 (12 days ago).",
+    "Self-reported on a resume, not taken from a credential document."
+   ],
+   "expiring_soon": false,
+   "days_until_expiry": -12,
+   "simulated_verification": false,
+   "conflicts_with": []
+  },
+  {
+   "id": "e7cdb511-08e5-49c0-a768-d61b3f5a7265",
+   "document_id": "1b624a0e-62dc-4be1-8255-bcbd26bd30b7",
+   "source": "mock",
+   "evidence_quote": "License Type: Registered Nurse\nLicense Number: RN-22417\nState: Ohio\nOriginal Issue Date: 10/23/2017\nExpiration Date: 10/11/2026",
+   "evidence_start": 116,
+   "evidence_end": 243,
+   "evidence_status": "found",
+   "review_state": "accepted",
+   "reviewed_by_name": "Casey Reviewer",
+   "reviewed_at": "2026-10-23T16:05:04.025437",
+   "review_note": null,
+   "flags": [],
+   "created_at": "2026-10-23T16:05:03.716274",
+   "updated_at": "2026-10-23T16:05:04.096474",
+   "type_code": "RN_LICENSE",
+   "type_label": "Registered Nurse (RN) License",
+   "name": "Registered Nurse",
+   "issuer": "STATE BOARD OF NURSING \u2014 OHIO",
+   "identifier": "RN-22417",
+   "jurisdiction": "Ohio",
+   "issue_date": "2017-10-23",
+   "expiration_date": "2026-10-11",
+   "expiration_text": "10/11/2026",
+   "verification_status": "verified",
+   "verification_method": "manual_primary_source",
+   "verification_reference": "Primary-source lookup by reviewer on 2026-10-23 (synthetic demo reference)",
+   "verified_at": "2026-10-23T16:05:04.096063",
+   "verified_by_name": "Casey Reviewer",
+   "status": "expired",
+   "status_reasons": [
+    "Expired on Oct 11, 2026 (12 days ago)."
+   ],
+   "expiring_soon": false,
+   "days_until_expiry": -12,
+   "simulated_verification": false,
+   "conflicts_with": []
+  }
+ ],
+ "documents": [
+  {
+   "id": "4682b257-60dc-43f1-ade7-118483d97f23",
+   "candidate_id": "7ddd1437-0e76-4d3c-b0dd-a717d68a976a",
+   "kind": "credential",
+   "original_filename": "ccrn_certificate.txt",
+   "content_type": "text/plain",
+   "size_bytes": 224,
+   "page_count": null,
+   "injection_suspected": false,
+   "injection_signals": [],
+   "created_at": "2026-10-23T16:05:03.785629",
+   "uploaded_by_name": "Riley Recruiter",
+   "job": {
+    "id": "fd6e104b-0c6f-4741-9c37-c8f92c43cee6",
+    "document_id": "4682b257-60dc-43f1-ade7-118483d97f23",
+    "status": "succeeded",
+    "provider": "mock",
+    "attempts": 1,
+    "max_attempts": 3,
+    "error_code": null,
+    "last_error": null,
+    "retryable": false,
+    "warnings": [],
+    "stats": {
+     "claims": {
+      "experience": 0,
+      "qualification": 0,
+      "skill": 0,
+      "credential": 1
+     },
+     "dropped": 0,
+     "flagged": 0,
+     "inserted": 1,
+     "replaced": 0,
+     "kept_reviewed": 0,
+     "redactions": {},
+     "duration_ms": 15
+    },
+    "next_attempt_at": null,
+    "started_at": "2026-10-23T16:05:03.789487",
+    "finished_at": "2026-10-23T16:05:03.806985",
+    "created_at": "2026-10-23T16:05:03.785782"
+   },
+   "claim_counts": {
+    "credential": 1
+   }
+  },
+  {
+   "id": "00f30ebd-6e32-4339-955d-ec5857f6d8a8",
+   "candidate_id": "7ddd1437-0e76-4d3c-b0dd-a717d68a976a",
+   "kind": "credential",
+   "original_filename": "acls_card.txt",
+   "content_type": "text/plain",
+   "size_bytes": 263,
+   "page_count": null,
+   "injection_suspected": false,
+   "injection_signals": [],
+   "created_at": "2026-10-23T16:05:03.755527",
+   "uploaded_by_name": "Riley Recruiter",
+   "job": {
+    "id": "ecde1258-d6d3-40be-a3cc-95d264c4f22a",
+    "document_id": "00f30ebd-6e32-4339-955d-ec5857f6d8a8",
+    "status": "succeeded",
+    "provider": "mock",
+    "attempts": 1,
+    "max_attempts": 3,
+    "error_code": null,
+    "last_error": null,
+    "retryable": false,
+    "warnings": [],
+    "stats": {
+     "claims": {
+      "experience": 0,
+      "qualification": 0,
+      "skill": 0,
+      "credential": 1
+     },
+     "dropped": 0,
+     "flagged": 1,
+     "inserted": 1,
+     "replaced": 0,
+     "kept_reviewed": 0,
+     "redactions": {},
+     "duration_ms": 16
+    },
+    "next_attempt_at": null,
+    "started_at": "2026-10-23T16:05:03.759614",
+    "finished_at": "2026-10-23T16:05:03.778065",
+    "created_at": "2026-10-23T16:05:03.755682"
+   },
+   "claim_counts": {
+    "credential": 1
+   }
+  },
+  {
+   "id": "d05be516-d811-44e9-ad49-920bdafe678d",
+   "candidate_id": "7ddd1437-0e76-4d3c-b0dd-a717d68a976a",
+   "kind": "credential",
+   "original_filename": "bls_card.txt",
+   "content_type": "text/plain",
+   "size_bytes": 244,
+   "page_count": null,
+   "injection_suspected": false,
+   "injection_signals": [],
+   "created_at": "2026-10-23T16:05:03.724873",
+   "uploaded_by_name": "Riley Recruiter",
+   "job": {
+    "id": "cb41e38d-9a4f-4293-b2b0-b6244eafc701",
+    "document_id": "d05be516-d811-44e9-ad49-920bdafe678d",
+    "status": "succeeded",
+    "provider": "mock",
+    "attempts": 1,
+    "max_attempts": 3,
+    "error_code": null,
+    "last_error": null,
+    "retryable": false,
+    "warnings": [],
+    "stats": {
+     "claims": {
+      "experience": 0,
+      "qualification": 0,
+      "skill": 0,
+      "credential": 1
+     },
+     "dropped": 0,
+     "flagged": 1,
+     "inserted": 1,
+     "replaced": 0,
+     "kept_reviewed": 0,
+     "redactions": {},
+     "duration_ms": 17
+    },
+    "next_attempt_at": null,
+    "started_at": "2026-10-23T16:05:03.728629",
+    "finished_at": "2026-10-23T16:05:03.747561",
+    "created_at": "2026-10-23T16:05:03.725048"
+   },
+   "claim_counts": {
+    "credential": 1
+   }
+  },
+  {
+   "id": "1b624a0e-62dc-4be1-8255-bcbd26bd30b7",
+   "candidate_id": "7ddd1437-0e76-4d3c-b0dd-a717d68a976a",
+   "kind": "credential",
+   "original_filename": "rn_license_lookup.txt",
+   "content_type": "text/plain",
+   "size_bytes": 329,
+   "page_count": null,
+   "injection_suspected": false,
+   "injection_signals": [],
+   "created_at": "2026-10-23T16:05:03.690929",
+   "uploaded_by_name": "Riley Recruiter",
+   "job": {
+    "id": "36909c80-b09a-44d4-b8d6-91caf4fb6bc8",
+    "document_id": "1b624a0e-62dc-4be1-8255-bcbd26bd30b7",
+    "status": "succeeded",
+    "provider": "mock",
+    "attempts": 1,
+    "max_attempts": 3,
+    "error_code": null,
+    "last_error": null,
+    "retryable": false,
+    "warnings": [],
+    "stats": {
+     "claims": {
+      "experience": 0,
+      "qualification": 0,
+      "skill": 0,
+      "credential": 1
+     },
+     "dropped": 0,
+     "flagged": 0,
+     "inserted": 1,
+     "replaced": 0,
+     "kept_reviewed": 0,
+     "redactions": {},
+     "duration_ms": 18
+    },
+    "next_attempt_at": null,
+    "started_at": "2026-10-23T16:05:03.695314",
+    "finished_at": "2026-10-23T16:05:03.715881",
+    "created_at": "2026-10-23T16:05:03.691086"
+   },
+   "claim_counts": {
+    "credential": 1
+   }
+  },
+  {
+   "id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+   "candidate_id": "7ddd1437-0e76-4d3c-b0dd-a717d68a976a",
+   "kind": "resume",
+   "original_filename": "Tom_resume.txt",
+   "content_type": "text/plain",
+   "size_bytes": 798,
+   "page_count": null,
+   "injection_suspected": false,
+   "injection_signals": [],
+   "created_at": "2026-10-23T16:05:03.656791",
+   "uploaded_by_name": "Riley Recruiter",
+   "job": {
+    "id": "7f437c77-6b7a-49ae-acc3-0a8b0d62e7c1",
+    "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+    "status": "succeeded",
+    "provider": "mock",
+    "attempts": 1,
+    "max_attempts": 3,
+    "error_code": null,
+    "last_error": null,
+    "retryable": false,
+    "warnings": [],
+    "stats": {
+     "claims": {
+      "experience": 1,
+      "qualification": 1,
+      "skill": 5,
+      "credential": 4
+     },
+     "dropped": 0,
+     "flagged": 3,
+     "inserted": 11,
+     "replaced": 0,
+     "kept_reviewed": 0,
+     "redactions": {
+      "email": 1,
+      "phone": 1
+     },
+     "duration_ms": 16
+    },
+    "next_attempt_at": null,
+    "started_at": "2026-10-23T16:05:03.660642",
+    "finished_at": "2026-10-23T16:05:03.678907",
+    "created_at": "2026-10-23T16:05:03.656994"
+   },
+   "claim_counts": {
+    "experience": 1,
+    "qualification": 1,
+    "skill": 5,
+    "credential": 4
+   }
+  }
+ ],
+ "match": {
+  "job": {
+   "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+   "title": "ICU Registered Nurse"
+  },
+  "score": 79,
+  "eligibility": "requirement_not_met",
+  "eligibility_explanation": "Required requirement not met: Registered Nurse (RN) License (valid \u2265 30 days).",
+  "score_explanation": "Score = weighted points earned / possible = 19 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+  "satisfied": 8,
+  "not_satisfied": 1,
+  "pending": 0,
+  "unknown": 0,
+  "requirements": [
+   {
+    "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+    "kind": "credential",
+    "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+    "is_required": true,
+    "weight": 5,
+    "outcome": "not_met",
+    "explanation": "Registered Nurse (RN) License: Expired on Oct 11, 2026 (12 days ago).",
+    "points_earned": 0.0,
+    "points_possible": 5.0,
+    "next_action": "Request renewed Registered Nurse (RN) License.",
+    "evidence": [
+     {
+      "claim_type": "credential",
+      "claim_id": "e7cdb511-08e5-49c0-a768-d61b3f5a7265",
+      "document_id": "1b624a0e-62dc-4be1-8255-bcbd26bd30b7",
+      "quote": "License Type: Registered Nurse\nLicense Number: RN-22417\nState: Ohio\nOriginal Issue Date: 10/23/2017\nExpiration Date: 10/11/2026",
+      "review_state": "accepted",
+      "status": "expired"
+     },
+     {
+      "claim_type": "credential",
+      "claim_id": "dad0dc14-5977-48b7-a0ce-9f5aec88c2c9",
+      "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+      "quote": "Registered Nurse, Ohio \u2014 License #RN-22417, expires 10/11/2026",
+      "review_state": "accepted",
+      "status": "expired"
+     }
+    ]
+   },
+   {
+    "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+    "kind": "credential",
+    "label": "Basic Life Support (BLS)",
+    "is_required": true,
+    "weight": 3,
+    "outcome": "met",
+    "explanation": "Basic Life Support (BLS): Reviewed and verified; valid until Aug 31, 2027.",
+    "points_earned": 3.0,
+    "points_possible": 3.0,
+    "next_action": null,
+    "evidence": [
+     {
+      "claim_type": "credential",
+      "claim_id": "b0bd56a8-694e-42fe-8d89-9fab8e678b71",
+      "document_id": "d05be516-d811-44e9-ad49-920bdafe678d",
+      "quote": "BLS Provider \u2014 Basic Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Tom Becker\nIssue Date: 08/2025\nRenew By: 08/2027\neCard Code: MRTN-22417-B",
+      "review_state": "accepted",
+      "status": "verified"
+     },
+     {
+      "claim_type": "credential",
+      "claim_id": "dd19de10-32af-4eef-93f1-09ab16579251",
+      "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+      "quote": "BLS Provider, exp. 08/2027",
+      "review_state": "accepted",
+      "status": "pending_verification"
+     }
+    ]
+   },
+   {
+    "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+    "kind": "credential",
+    "label": "Advanced Cardiovascular Life Support (ACLS)",
+    "is_required": true,
+    "weight": 3,
+    "outcome": "met",
+    "explanation": "Advanced Cardiovascular Life Support (ACLS): Reviewed and verified; valid until Aug 31, 2027.",
+    "points_earned": 3.0,
+    "points_possible": 3.0,
+    "next_action": null,
+    "evidence": [
+     {
+      "claim_type": "credential",
+      "claim_id": "285a8325-1c7a-4bec-b5f6-0aa4acb742bb",
+      "document_id": "00f30ebd-6e32-4339-955d-ec5857f6d8a8",
+      "quote": "ACLS Provider \u2014 Advanced Cardiovascular Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Tom Becker\nIssue Date: 08/2025\nRenew By: 08/2027\neCard Code: MRTN-22417-A",
+      "review_state": "accepted",
+      "status": "verified"
+     },
+     {
+      "claim_type": "credential",
+      "claim_id": "581a2855-24e8-4241-a50f-0485942647ca",
+      "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+      "quote": "ACLS Provider \u2014 expires 08/2027",
+      "review_state": "accepted",
+      "status": "pending_verification"
+     }
+    ]
+   },
+   {
+    "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+    "kind": "qualification",
+    "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+    "is_required": true,
+    "weight": 3,
+    "outcome": "met",
+    "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): confirmed by reviewed evidence.",
+    "points_earned": 3.0,
+    "points_possible": 3.0,
+    "next_action": null,
+    "evidence": [
+     {
+      "claim_type": "qualification",
+      "claim_id": "968adb2f-3ce5-435c-940d-72e6611041b9",
+      "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+      "quote": "Bachelor of Science in Nursing \u2014 Ohio Valley University, 2016",
+      "review_state": "accepted",
+      "status": null
+     }
+    ]
+   },
+   {
+    "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+    "kind": "experience",
+    "label": "2+ years acute care experience",
+    "is_required": true,
+    "weight": 4,
+    "outcome": "met",
+    "explanation": "7.1 years of reviewed acute care experience (requires 2+ years acute care experience).",
+    "points_earned": 4.0,
+    "points_possible": 4.0,
+    "next_action": null,
+    "evidence": [
+     {
+      "claim_type": "experience",
+      "claim_id": "37d19b9a-d4ea-44d6-aeb6-4cd40902bee2",
+      "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+      "quote": "Staff Nurse, Medical ICU \u2014 Riverside General Hospital, Columbus, OH | 10/2019 \u2013 Present",
+      "review_state": "accepted",
+      "status": null
+     }
+    ]
+   },
+   {
+    "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+    "kind": "credential",
+    "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+    "is_required": false,
+    "weight": 2,
+    "outcome": "met",
+    "explanation": "CCRN \u2014 Critical Care Registered Nurse (certification): Reviewed and verified; valid until Jun 14, 2028.",
+    "points_earned": 2.0,
+    "points_possible": 2.0,
+    "next_action": null,
+    "evidence": [
+     {
+      "claim_type": "credential",
+      "claim_id": "e8dfbab4-073e-4dc7-9cff-89b67b2bae8e",
+      "document_id": "4682b257-60dc-43f1-ade7-118483d97f23",
+      "quote": "Certification: CCRN (Adult)\nCertification Number: CC-22417\nIssue Date: June 10, 2025\nExpiration Date: June 14, 2028",
+      "review_state": "accepted",
+      "status": "verified"
+     },
+     {
+      "claim_type": "credential",
+      "claim_id": "34b3b62d-30be-4234-bbe9-c2ed8993b962",
+      "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+      "quote": "CCRN (Critical Care Nursing Certification Council), valid through 06/2028",
+      "review_state": "accepted",
+      "status": "pending_verification"
+     }
+    ]
+   },
+   {
+    "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+    "kind": "skill",
+    "label": "Ventilator management",
+    "is_required": false,
+    "weight": 2,
+    "outcome": "met",
+    "explanation": "Ventilator management: confirmed by reviewed evidence.",
+    "points_earned": 2.0,
+    "points_possible": 2.0,
+    "next_action": null,
+    "evidence": [
+     {
+      "claim_type": "skill",
+      "claim_id": "13a6c3aa-9a22-40b4-b1bf-6a37ed51eb2b",
+      "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+      "quote": "Ventilator management",
+      "review_state": "accepted",
+      "status": null
+     }
+    ]
+   },
+   {
+    "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+    "kind": "skill",
+    "label": "Hemodynamic monitoring",
+    "is_required": false,
+    "weight": 1,
+    "outcome": "met",
+    "explanation": "Hemodynamic monitoring: confirmed by reviewed evidence.",
+    "points_earned": 1.0,
+    "points_possible": 1.0,
+    "next_action": null,
+    "evidence": [
+     {
+      "claim_type": "skill",
+      "claim_id": "640b8594-eb7e-4b6d-b151-e19319c0349e",
+      "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+      "quote": "Hemodynamic monitoring",
+      "review_state": "accepted",
+      "status": null
+     }
+    ]
+   },
+   {
+    "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+    "kind": "skill",
+    "label": "EHR \u2014 Epic",
+    "is_required": false,
+    "weight": 1,
+    "outcome": "met",
+    "explanation": "EHR \u2014 Epic: confirmed by reviewed evidence.",
+    "points_earned": 1.0,
+    "points_possible": 1.0,
+    "next_action": null,
+    "evidence": [
+     {
+      "claim_type": "skill",
+      "claim_id": "6cb5e30e-5e68-4f8d-b151-4e5291fb210d",
+      "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+      "quote": "Epic EHR",
+      "review_state": "accepted",
+      "status": null
+     }
+    ]
+   }
+  ],
+  "next_actions": [
+   {
+    "priority": 10,
+    "label": "Request renewed Registered Nurse (RN) License.",
+    "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be"
+   }
+  ]
+ },
+ "next_actions": [
+  {
+   "priority": 10,
+   "label": "Request renewed Registered Nurse (RN) License.",
+   "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be"
+  }
+ ],
+ "tasks": [],
+ "notes": [
+  {
+   "id": "2e1c1e38-638e-4af0-bd4b-73d0c4d7c1c9",
+   "kind": "note",
+   "decision": null,
+   "body": "Called candidate: says renewal was submitted last month. Awaiting updated license record.",
+   "author_name": "Riley Recruiter",
+   "created_at": "2026-10-23T16:05:04.131346"
+  }
+ ],
+ "clearance_blockers": [],
+ "created_at": "2026-10-23T16:05:03.643080"
+}

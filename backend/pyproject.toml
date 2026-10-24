@@ -1,0 +1,36 @@
+[project]
+name = "healthforce-backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]
+filterwarnings = ["ignore::DeprecationWarning:starlette.*"]
+
+[tool.ruff]
+line-length = 160
+target-version = "py312"
+extend-exclude = ["migrations/versions"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "N", "SIM", "RUF"]
+ignore = [
+  "S101",   # assert is fine in tests and for type narrowing
+  "B008",   # FastAPI dependency defaults (Depends/File/Form) are idiomatic
+  "RUF001", "RUF002", "RUF003",  # intentional typographic dashes in user-facing text
+  "S105", "S106",  # demo/test passwords are documented as such
+  "SIM108",
+  "E501",   # line length is owned by `ruff format`
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S", "E731", "N802", "N812"]
+"app/seed.py" = ["N812"]
+
+[tool.mypy]
+python_version = "3.13"
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = false
+exclude = ["migrations/", "tests/"]

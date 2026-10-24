@@ -1,0 +1,3180 @@
+{
+ "job": {
+  "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+  "title": "ICU Registered Nurse",
+  "department": "Critical Care",
+  "location": "Columbus, OH",
+  "description": "Night-shift RN for a 24-bed medical/surgical ICU. Ventilated and hemodynamically unstable patients.",
+  "status": "open",
+  "requirements": [
+   {
+    "id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+    "kind": "credential",
+    "codes": [
+     "RN_LICENSE"
+    ],
+    "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+    "is_required": true,
+    "weight": 5,
+    "min_years": null,
+    "setting": null,
+    "min_valid_days": 30,
+    "position": 0
+   },
+   {
+    "id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+    "kind": "credential",
+    "codes": [
+     "BLS"
+    ],
+    "label": "Basic Life Support (BLS)",
+    "is_required": true,
+    "weight": 3,
+    "min_years": null,
+    "setting": null,
+    "min_valid_days": null,
+    "position": 1
+   },
+   {
+    "id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+    "kind": "credential",
+    "codes": [
+     "ACLS"
+    ],
+    "label": "Advanced Cardiovascular Life Support (ACLS)",
+    "is_required": true,
+    "weight": 3,
+    "min_years": null,
+    "setting": null,
+    "min_valid_days": null,
+    "position": 2
+   },
+   {
+    "id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+    "kind": "qualification",
+    "codes": [
+     "BSN",
+     "ADN"
+    ],
+    "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+    "is_required": true,
+    "weight": 3,
+    "min_years": null,
+    "setting": null,
+    "min_valid_days": null,
+    "position": 3
+   },
+   {
+    "id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+    "kind": "experience",
+    "codes": [],
+    "label": "2+ years acute care experience",
+    "is_required": true,
+    "weight": 4,
+    "min_years": 2.0,
+    "setting": "acute_care",
+    "min_valid_days": null,
+    "position": 4
+   },
+   {
+    "id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+    "kind": "credential",
+    "codes": [
+     "CCRN"
+    ],
+    "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+    "is_required": false,
+    "weight": 2,
+    "min_years": null,
+    "setting": null,
+    "min_valid_days": null,
+    "position": 5
+   },
+   {
+    "id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+    "kind": "skill",
+    "codes": [
+     "ventilator_management"
+    ],
+    "label": "Ventilator management",
+    "is_required": false,
+    "weight": 2,
+    "min_years": null,
+    "setting": null,
+    "min_valid_days": null,
+    "position": 6
+   },
+   {
+    "id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+    "kind": "skill",
+    "codes": [
+     "hemodynamic_monitoring"
+    ],
+    "label": "Hemodynamic monitoring",
+    "is_required": false,
+    "weight": 1,
+    "min_years": null,
+    "setting": null,
+    "min_valid_days": null,
+    "position": 7
+   },
+   {
+    "id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+    "kind": "skill",
+    "codes": [
+     "epic_ehr"
+    ],
+    "label": "EHR \u2014 Epic",
+    "is_required": false,
+    "weight": 1,
+    "min_years": null,
+    "setting": null,
+    "min_valid_days": null,
+    "position": 8
+   }
+  ],
+  "candidate_count": 7,
+  "created_at": "2026-10-23T16:05:00.203352",
+  "updated_at": "2026-10-23T16:05:00.203356"
+ },
+ "results": [
+  {
+   "candidate": {
+    "id": "97dad86f-f437-4fb9-94b0-4a662c83f4ff",
+    "full_name": "Maya Thompson",
+    "status": "onboarding",
+    "headline": "ICU RN, 5 yrs critical care",
+    "assigned_to_this_job": true
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 100,
+    "eligibility": "meets_all_required",
+    "eligibility_explanation": "Every required requirement is met by reviewed evidence.",
+    "score_explanation": "Score = weighted points earned / possible = 24 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 9,
+    "not_satisfied": 0,
+    "pending": 0,
+    "unknown": 0,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "met",
+      "explanation": "Registered Nurse (RN) License: Reviewed and verified; valid until Jul 24, 2028.",
+      "points_earned": 5.0,
+      "points_possible": 5.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "318affac-4021-4dc5-950c-91866e1093fd",
+        "document_id": "4a0a833e-c72b-45ca-b0bc-9412669a0bb5",
+        "quote": "License Type: Registered Nurse\nLicense Number: RN-48213\nState: Ohio\nOriginal Issue Date: 10/24/2019\nExpiration Date: 07/24/2028",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "d8c63605-d9b0-4a5e-a92e-6838e57e4b4a",
+        "document_id": "d8ef0b1e-ccdd-4bd5-ba3e-c3acc2ce1882",
+        "quote": "Registered Nurse, Ohio \u2014 License #RN-48213, expires 07/24/2028",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Basic Life Support (BLS): Reviewed and verified; valid until Dec 31, 2027.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "d2c8c708-56e2-492e-9226-f61aaf63ce24",
+        "document_id": "97191540-1427-43d9-ae26-368898584448",
+        "quote": "BLS Provider \u2014 Basic Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Maya Thompson\nIssue Date: 12/2025\nRenew By: 12/2027\neCard Code: MRTN-48213-B",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "443c6f42-3e2c-4c0f-92a5-0a177ce0f498",
+        "document_id": "d8ef0b1e-ccdd-4bd5-ba3e-c3acc2ce1882",
+        "quote": "BLS Provider, exp. 12/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Advanced Cardiovascular Life Support (ACLS): Reviewed and verified; valid until Sep 30, 2027.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "4a894aa8-fb93-49b6-825b-0c1c538db3f9",
+        "document_id": "8dfc0e6b-6cd6-4ea1-9b19-9b17b038d504",
+        "quote": "ACLS Provider \u2014 Advanced Cardiovascular Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Maya Thompson\nIssue Date: 09/2025\nRenew By: 09/2027\neCard Code: MRTN-48213-A",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "67bf8c90-05f8-42a4-80cf-1c9b755a5cac",
+        "document_id": "d8ef0b1e-ccdd-4bd5-ba3e-c3acc2ce1882",
+        "quote": "ACLS Provider \u2014 expires 09/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): confirmed by reviewed evidence.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "a10ae84a-35ae-4f47-a8dc-d83db539bae6",
+        "document_id": "d8ef0b1e-ccdd-4bd5-ba3e-c3acc2ce1882",
+        "quote": "Bachelor of Science in Nursing \u2014 Ohio Valley University, 2016",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "met",
+      "explanation": "5.1 years of reviewed acute care experience (requires 2+ years acute care experience).",
+      "points_earned": 4.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "522eba93-06a8-4412-9beb-26e647ffad44",
+        "document_id": "d8ef0b1e-ccdd-4bd5-ba3e-c3acc2ce1882",
+        "quote": "Staff Nurse, Medical ICU \u2014 Riverside General Hospital, Columbus, OH | 10/2021 \u2013 Present",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "met",
+      "explanation": "CCRN \u2014 Critical Care Registered Nurse (certification): Reviewed and verified; valid until Jun 14, 2028.",
+      "points_earned": 2.0,
+      "points_possible": 2.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "26579c7c-a3ab-4180-bc02-9381cb8aa6e0",
+        "document_id": "311d3b6a-d00c-41de-ab7c-c763d658bf9b",
+        "quote": "Certification: CCRN (Adult)\nCertification Number: CC-48213\nIssue Date: June 10, 2025\nExpiration Date: June 14, 2028",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "682813a7-f443-4761-9d22-e53c6d377437",
+        "document_id": "d8ef0b1e-ccdd-4bd5-ba3e-c3acc2ce1882",
+        "quote": "CCRN (Critical Care Nursing Certification Council), valid through 06/2028",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "met",
+      "explanation": "Ventilator management: confirmed by reviewed evidence.",
+      "points_earned": 2.0,
+      "points_possible": 2.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "f9882fb1-6d63-4a35-a059-fe3194fddc51",
+        "document_id": "d8ef0b1e-ccdd-4bd5-ba3e-c3acc2ce1882",
+        "quote": "Ventilator management",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "Hemodynamic monitoring: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "9b62358a-29a4-43e4-9c62-17362d7255c2",
+        "document_id": "d8ef0b1e-ccdd-4bd5-ba3e-c3acc2ce1882",
+        "quote": "Hemodynamic monitoring",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "EHR \u2014 Epic: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "a60a28d9-ed9b-4d35-a447-233eca0b20a9",
+        "document_id": "d8ef0b1e-ccdd-4bd5-ba3e-c3acc2ce1882",
+        "quote": "Epic EHR",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     }
+    ],
+    "next_actions": []
+   }
+  },
+  {
+   "candidate": {
+    "id": "e2fabcb5-501c-4265-a3d8-1a453f6a5c80",
+    "full_name": "Rachel Adams",
+    "status": "cleared",
+    "headline": "ICU RN, CCRN",
+    "assigned_to_this_job": true
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 100,
+    "eligibility": "meets_all_required",
+    "eligibility_explanation": "Every required requirement is met by reviewed evidence.",
+    "score_explanation": "Score = weighted points earned / possible = 24 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 9,
+    "not_satisfied": 0,
+    "pending": 0,
+    "unknown": 0,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "met",
+      "explanation": "Registered Nurse (RN) License: Reviewed and verified; valid until Sep 22, 2028.",
+      "points_earned": 5.0,
+      "points_possible": 5.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "baad6eb7-0b3b-4bca-850f-784dce3d679b",
+        "document_id": "de490be9-6c32-44d9-8830-dfd463b02fb2",
+        "quote": "License Type: Registered Nurse\nLicense Number: RN-39120\nState: Ohio\nOriginal Issue Date: 10/23/2018\nExpiration Date: 09/22/2028",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "6d1eab61-0de0-43b5-acd4-c8701a36bcd7",
+        "document_id": "b808be24-827a-461f-a0b4-674bc9e802e7",
+        "quote": "Registered Nurse, Ohio \u2014 License #RN-39120, expires 09/22/2028",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Basic Life Support (BLS): Reviewed and verified; valid until Mar 31, 2028.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "67d22631-6052-4331-b311-2bf3e01c91ce",
+        "document_id": "15093b47-8ea8-4b64-953f-73546b744db9",
+        "quote": "BLS Provider \u2014 Basic Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Rachel Adams\nIssue Date: 03/2026\nRenew By: 03/2028\neCard Code: MRTN-39120-B",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "d55d48fd-3248-4635-b2eb-8d98fb4541b2",
+        "document_id": "b808be24-827a-461f-a0b4-674bc9e802e7",
+        "quote": "BLS Provider, exp. 03/2028",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Advanced Cardiovascular Life Support (ACLS): Reviewed and verified; valid until Feb 29, 2028.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "16e75e67-becd-46f6-8d6a-04dc365ca460",
+        "document_id": "a219e32f-865b-435e-8026-07cad834a389",
+        "quote": "ACLS Provider \u2014 Advanced Cardiovascular Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Rachel Adams\nIssue Date: 02/2026\nRenew By: 02/2028\neCard Code: MRTN-39120-A",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "f9d4f1bb-3f28-49ef-bcb0-da40cdd21174",
+        "document_id": "b808be24-827a-461f-a0b4-674bc9e802e7",
+        "quote": "ACLS Provider \u2014 expires 02/2028",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): confirmed by reviewed evidence.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "a5573da1-42bc-43f6-855f-d256b4c01395",
+        "document_id": "b808be24-827a-461f-a0b4-674bc9e802e7",
+        "quote": "Bachelor of Science in Nursing \u2014 Ohio Valley University, 2016",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "met",
+      "explanation": "6.1 years of reviewed acute care experience (requires 2+ years acute care experience).",
+      "points_earned": 4.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "e0107d13-6538-4de3-a95a-af0dd8ea6f78",
+        "document_id": "b808be24-827a-461f-a0b4-674bc9e802e7",
+        "quote": "Staff Nurse, Medical ICU \u2014 Riverside General Hospital, Columbus, OH | 10/2020 \u2013 Present",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "met",
+      "explanation": "CCRN \u2014 Critical Care Registered Nurse (certification): Reviewed and verified; valid until Jun 14, 2028.",
+      "points_earned": 2.0,
+      "points_possible": 2.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "c78ce98b-e98f-4a9a-9c4b-7c83c6b5ecd5",
+        "document_id": "0315c048-556a-488b-a3d6-aac8e7b25c30",
+        "quote": "Certification: CCRN (Adult)\nCertification Number: CC-39120\nIssue Date: June 10, 2025\nExpiration Date: June 14, 2028",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "89690a00-64cb-4fde-8d7d-26f853cf5252",
+        "document_id": "b808be24-827a-461f-a0b4-674bc9e802e7",
+        "quote": "CCRN (Critical Care Nursing Certification Council), valid through 06/2028",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "met",
+      "explanation": "Ventilator management: confirmed by reviewed evidence.",
+      "points_earned": 2.0,
+      "points_possible": 2.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "8638f49f-9d88-4296-81a3-ad16f9b289b1",
+        "document_id": "b808be24-827a-461f-a0b4-674bc9e802e7",
+        "quote": "Ventilator management",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "Hemodynamic monitoring: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "796dc5b2-57e3-4d16-8c03-a6f7ce613ca6",
+        "document_id": "b808be24-827a-461f-a0b4-674bc9e802e7",
+        "quote": "Hemodynamic monitoring",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "EHR \u2014 Epic: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "57d9e75e-c486-43ed-9fdd-2f1c2257bf5b",
+        "document_id": "b808be24-827a-461f-a0b4-674bc9e802e7",
+        "quote": "Epic EHR",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     }
+    ],
+    "next_actions": []
+   }
+  },
+  {
+   "candidate": {
+    "id": "adec179d-07c2-4f37-a6fa-112797607a78",
+    "full_name": "Samuel Brooks",
+    "status": "interview",
+    "headline": "Cardiac ICU RN",
+    "assigned_to_this_job": true
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 92,
+    "eligibility": "meets_all_required",
+    "eligibility_explanation": "Every required requirement is met by reviewed evidence.",
+    "score_explanation": "Score = weighted points earned / possible = 22 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 8,
+    "not_satisfied": 0,
+    "pending": 0,
+    "unknown": 1,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "met",
+      "explanation": "Registered Nurse (RN) License: Reviewed and verified; valid until Mar 26, 2028.",
+      "points_earned": 5.0,
+      "points_possible": 5.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "c2cf5da7-51c3-4096-932d-71bda4b1a272",
+        "document_id": "b1a328fe-7708-42ab-beb2-32834c10e921",
+        "quote": "License Type: Registered Nurse\nLicense Number: RN-30876\nState: Ohio\nOriginal Issue Date: 10/23/2021\nExpiration Date: 03/26/2028",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "3d060005-1e05-48b8-8bcd-e16d50b4f1d4",
+        "document_id": "cc2c3d0b-802d-4b57-a28d-5d98d84088fe",
+        "quote": "Registered Nurse, Ohio \u2014 License #RN-30876, expires 03/26/2028",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Basic Life Support (BLS): Verified; expires in 38 days (Nov 30, 2026).",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": "Request renewal of Basic Life Support (BLS) (expires Nov 30, 2026).",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "9ffa45ce-3970-4d5d-a0a3-963628a7327d",
+        "document_id": "d36c6031-1700-40f0-ba09-08a06c909529",
+        "quote": "BLS Provider \u2014 Basic Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Samuel Brooks\nIssue Date: 11/2024\nRenew By: 11/2026\neCard Code: MRTN-30876-B",
+        "review_state": "accepted",
+        "status": "expiring_soon"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "f07ef8ff-eceb-4303-8149-306709323a20",
+        "document_id": "cc2c3d0b-802d-4b57-a28d-5d98d84088fe",
+        "quote": "BLS Provider, exp. 11/2026",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Advanced Cardiovascular Life Support (ACLS): Reviewed and verified; valid until Nov 30, 2027.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "b3973fe5-43bd-47e3-b000-351387f41f33",
+        "document_id": "5a5a3473-c863-4e3e-aa9a-5d625eec1071",
+        "quote": "ACLS Provider \u2014 Advanced Cardiovascular Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Samuel Brooks\nIssue Date: 11/2025\nRenew By: 11/2027\neCard Code: MRTN-30876-A",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "0369804b-7d49-4b0c-8b6d-811415e0bb40",
+        "document_id": "cc2c3d0b-802d-4b57-a28d-5d98d84088fe",
+        "quote": "ACLS Provider \u2014 expires 11/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): confirmed by reviewed evidence.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "ab3b0e02-379e-4180-a21c-99ba5ae3281e",
+        "document_id": "cc2c3d0b-802d-4b57-a28d-5d98d84088fe",
+        "quote": "Bachelor of Science in Nursing \u2014 Ohio Valley University, 2016",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "met",
+      "explanation": "3.1 years of reviewed acute care experience (requires 2+ years acute care experience).",
+      "points_earned": 4.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "60488563-a5b1-4dcc-9195-d3adde56b5fb",
+        "document_id": "cc2c3d0b-802d-4b57-a28d-5d98d84088fe",
+        "quote": "Staff Nurse, Medical ICU \u2014 Riverside General Hospital, Columbus, OH | 10/2023 \u2013 Present",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No CCRN \u2014 Critical Care Registered Nurse (certification) on file.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "met",
+      "explanation": "Ventilator management: confirmed by reviewed evidence.",
+      "points_earned": 2.0,
+      "points_possible": 2.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "fb1d194d-d4c0-48e7-b528-b87f0aa682a1",
+        "document_id": "cc2c3d0b-802d-4b57-a28d-5d98d84088fe",
+        "quote": "Ventilator management",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "Hemodynamic monitoring: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "9f728d5a-d682-4da7-8c95-b480576e8b31",
+        "document_id": "cc2c3d0b-802d-4b57-a28d-5d98d84088fe",
+        "quote": "Hemodynamic monitoring",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "EHR \u2014 Epic: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "120faadb-e925-4da2-b222-a53ad1743fcd",
+        "document_id": "cc2c3d0b-802d-4b57-a28d-5d98d84088fe",
+        "quote": "Epic EHR",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 75,
+      "label": "Request renewal of Basic Life Support (BLS) (expires Nov 30, 2026).",
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b"
+     },
+     {
+      "priority": 130,
+      "label": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2"
+     }
+    ]
+   }
+  },
+  {
+   "candidate": {
+    "id": "c82e1f53-ff77-4628-be8d-3d75889816e8",
+    "full_name": "Daniel Okafor",
+    "status": "screening",
+    "headline": "Step-down RN moving to ICU",
+    "assigned_to_this_job": true
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 79,
+    "eligibility": "missing_information",
+    "eligibility_explanation": "Missing information for: Advanced Cardiovascular Life Support (ACLS).",
+    "score_explanation": "Score = weighted points earned / possible = 19 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 7,
+    "not_satisfied": 0,
+    "pending": 0,
+    "unknown": 2,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "met",
+      "explanation": "Registered Nurse (RN) License: Reviewed and verified; valid until Mar 06, 2028.",
+      "points_earned": 5.0,
+      "points_possible": 5.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "60dce0ea-b897-4e5e-90e6-eda8030279de",
+        "document_id": "d65aee54-7f6a-475b-8879-2a541b92f348",
+        "quote": "License Type: Registered Nurse\nLicense Number: RN-55102\nState: Ohio\nOriginal Issue Date: 10/23/2021\nExpiration Date: 03/06/2028",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "8c501fda-ced1-49fc-874e-14cca8a8b241",
+        "document_id": "a90a6730-3f9b-4b3e-8a27-e410a31fbbb5",
+        "quote": "Registered Nurse, Ohio \u2014 License #RN-55102, expires 03/06/2028",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Basic Life Support (BLS): Reviewed and verified; valid until Nov 30, 2027.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "2aa6b752-c06d-41a5-a649-66f3922b3d4f",
+        "document_id": "2c28b2ab-9fb5-4b61-a0e1-955149e23987",
+        "quote": "BLS Provider \u2014 Basic Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Daniel Okafor\nIssue Date: 11/2025\nRenew By: 11/2027\neCard Code: MRTN-55102-B",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "3b739c75-cdb4-4eac-abe7-5b196faf9b93",
+        "document_id": "a90a6730-3f9b-4b3e-8a27-e410a31fbbb5",
+        "quote": "BLS Provider, exp. 11/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No Advanced Cardiovascular Life Support (ACLS) on file.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): confirmed by reviewed evidence.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "154b4e84-66d4-4f79-88f1-aee06391b6a3",
+        "document_id": "a90a6730-3f9b-4b3e-8a27-e410a31fbbb5",
+        "quote": "Associate Degree in Nursing \u2014 Franklin Technical College, 2019",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "met",
+      "explanation": "4.6 years of reviewed acute care experience (requires 2+ years acute care experience).",
+      "points_earned": 4.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "58f61b83-f735-4a1e-8a59-9c8b5ab078d8",
+        "document_id": "a90a6730-3f9b-4b3e-8a27-e410a31fbbb5",
+        "quote": "Staff Nurse, Medical ICU\nRiverside General Hospital \u00b7 Apr 2024 to Present",
+        "review_state": "accepted",
+        "status": null
+       },
+       {
+        "claim_type": "experience",
+        "claim_id": "43816f6e-e20b-4f81-88a5-4ca652d30a30",
+        "document_id": "a90a6730-3f9b-4b3e-8a27-e410a31fbbb5",
+        "quote": "RN, Cardiac Step-Down Unit\nMercy Valley Medical Center \u00b7 Apr 2022 to Apr 2024",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No CCRN \u2014 Critical Care Registered Nurse (certification) on file.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "met",
+      "explanation": "Ventilator management: confirmed by reviewed evidence.",
+      "points_earned": 2.0,
+      "points_possible": 2.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "c15dc73e-1baa-4aed-8696-54f2e8bf6916",
+        "document_id": "a90a6730-3f9b-4b3e-8a27-e410a31fbbb5",
+        "quote": "Ventilator management",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "Hemodynamic monitoring: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "205d1ad5-78ec-4638-994f-7d85a1dcc348",
+        "document_id": "a90a6730-3f9b-4b3e-8a27-e410a31fbbb5",
+        "quote": "Hemodynamic monitoring",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "EHR \u2014 Epic: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "e7a8b332-62c1-4489-98f7-7ae38c5778ec",
+        "document_id": "a90a6730-3f9b-4b3e-8a27-e410a31fbbb5",
+        "quote": "Epic EHR",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4"
+     },
+     {
+      "priority": 130,
+      "label": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2"
+     }
+    ]
+   }
+  },
+  {
+   "candidate": {
+    "id": "e659472b-7e0c-42cc-970f-3d9ee174cede",
+    "full_name": "Grace Liu",
+    "status": "screening",
+    "headline": "Surgical ICU RN",
+    "assigned_to_this_job": true
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 58,
+    "eligibility": "missing_information",
+    "eligibility_explanation": "Missing information for: Registered Nurse (RN) License (valid \u2265 30 days).",
+    "score_explanation": "Score = weighted points earned / possible = 14 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 5,
+    "not_satisfied": 0,
+    "pending": 2,
+    "unknown": 2,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "unknown",
+      "explanation": "Registered Nurse (RN) License: Another record for this credential shows a different expiration date. Reject the incorrect or outdated record to resolve the conflict.",
+      "points_earned": 0.0,
+      "points_possible": 5.0,
+      "next_action": "Resolve Registered Nurse (RN) License: Another record for this credential shows a different expiration date. Reject the incorrect or outdated record to resolve the conflict.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "5b9eb62c-2d27-42b1-9577-dc8d5160a807",
+        "document_id": "bc3d651c-41e3-48b9-8329-8ac4c69abccd",
+        "quote": "Registered Nurse, Ohio \u2014 License #RN-71245, expires 05/25/2028",
+        "review_state": "accepted",
+        "status": "unable_to_determine"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "8790f9f9-3717-478f-beed-b2d5f462208f",
+        "document_id": "9e197cf7-9d65-4c05-bfbe-76cef149d3e5",
+        "quote": "License Type: Registered Nurse\nLicense Number: RN-71245\nState: Ohio\nOriginal Issue Date: 10/23/2020\nExpiration Date: 05/31/2026",
+        "review_state": "accepted",
+        "status": "unable_to_determine"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "pending",
+      "explanation": "Basic Life Support (BLS): Reviewed, but not yet verified against a primary source.",
+      "points_earned": 1.5,
+      "points_possible": 3.0,
+      "next_action": "Verify Basic Life Support (BLS) with the primary source.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "8e0c79ce-85b5-430d-b5c8-6873eb8a5a0a",
+        "document_id": "bc3d651c-41e3-48b9-8329-8ac4c69abccd",
+        "quote": "BLS Provider, exp. 08/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "pending",
+      "explanation": "Advanced Cardiovascular Life Support (ACLS): Reviewed, but not yet verified against a primary source.",
+      "points_earned": 1.5,
+      "points_possible": 3.0,
+      "next_action": "Verify Advanced Cardiovascular Life Support (ACLS) with the primary source.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "6735a840-150b-4067-acbc-db5ab598a4de",
+        "document_id": "bc3d651c-41e3-48b9-8329-8ac4c69abccd",
+        "quote": "ACLS Provider \u2014 expires 08/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): confirmed by reviewed evidence.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "6e2aca0f-0413-4966-9268-f8a9b4c869b1",
+        "document_id": "bc3d651c-41e3-48b9-8329-8ac4c69abccd",
+        "quote": "Bachelor of Science in Nursing \u2014 Ohio Valley University, 2016",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "met",
+      "explanation": "4.1 years of reviewed acute care experience (requires 2+ years acute care experience).",
+      "points_earned": 4.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "4b9b7c4e-3ae3-4196-98e1-e71f8a23f7e4",
+        "document_id": "bc3d651c-41e3-48b9-8329-8ac4c69abccd",
+        "quote": "Staff Nurse, Medical ICU \u2014 Riverside General Hospital, Columbus, OH | 10/2022 \u2013 Present",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No CCRN \u2014 Critical Care Registered Nurse (certification) on file.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "met",
+      "explanation": "Ventilator management: confirmed by reviewed evidence.",
+      "points_earned": 2.0,
+      "points_possible": 2.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "5919097e-9603-461d-9239-51ac30dbdd54",
+        "document_id": "bc3d651c-41e3-48b9-8329-8ac4c69abccd",
+        "quote": "Ventilator management",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "Hemodynamic monitoring: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "27ba7e89-8282-41ef-9d08-645991480d55",
+        "document_id": "bc3d651c-41e3-48b9-8329-8ac4c69abccd",
+        "quote": "Hemodynamic monitoring",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "EHR \u2014 Epic: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "63292209-36a2-4edb-b09b-362a18040320",
+        "document_id": "bc3d651c-41e3-48b9-8329-8ac4c69abccd",
+        "quote": "Epic EHR",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 20,
+      "label": "Resolve Registered Nurse (RN) License: Another record for this credential shows a different expiration date. Reject the incorrect or outdated record to resolve the conflict.",
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be"
+     },
+     {
+      "priority": 45,
+      "label": "Verify Basic Life Support (BLS) with the primary source.",
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b"
+     },
+     {
+      "priority": 45,
+      "label": "Verify Advanced Cardiovascular Life Support (ACLS) with the primary source.",
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4"
+     },
+     {
+      "priority": 130,
+      "label": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2"
+     }
+    ]
+   }
+  },
+  {
+   "candidate": {
+    "id": "8075070a-04ed-42aa-9b86-a14437212e8a",
+    "full_name": "Luis Hernandez",
+    "status": "new",
+    "headline": "ICU RN relocating from California",
+    "assigned_to_this_job": true
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 58,
+    "eligibility": "missing_information",
+    "eligibility_explanation": "Missing information for: Registered Nurse (RN) License (valid \u2265 30 days).",
+    "score_explanation": "Score = weighted points earned / possible = 14 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 5,
+    "not_satisfied": 0,
+    "pending": 2,
+    "unknown": 2,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "unknown",
+      "explanation": "Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+      "points_earned": 0.0,
+      "points_possible": 5.0,
+      "next_action": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "67a8f585-9c8e-465f-8c7c-1bd4529e5cac",
+        "document_id": "772995dd-c216-424f-9091-adb8003ff731",
+        "quote": "License Type: Registered Nurse\nLicense Number: RN-77814\nState: California\nOriginal Issue Date: 10/23/2021",
+        "review_state": "accepted",
+        "status": "unable_to_determine"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "918506c0-7bee-4bf2-a9ec-5bbadaf063f7",
+        "document_id": "537b4d91-3536-4046-8208-a4c042122d25",
+        "quote": "Registered Nurse (California) \u2014 License #RN-77814",
+        "review_state": "accepted",
+        "status": "unable_to_determine"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "pending",
+      "explanation": "Basic Life Support (BLS): Reviewed, but not yet verified against a primary source.",
+      "points_earned": 1.5,
+      "points_possible": 3.0,
+      "next_action": "Verify Basic Life Support (BLS) with the primary source.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "a9bf047d-aada-4483-ad64-c4eb9419565e",
+        "document_id": "537b4d91-3536-4046-8208-a4c042122d25",
+        "quote": "BLS Provider, exp. 06/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "pending",
+      "explanation": "Advanced Cardiovascular Life Support (ACLS): Reviewed, but not yet verified against a primary source.",
+      "points_earned": 1.5,
+      "points_possible": 3.0,
+      "next_action": "Verify Advanced Cardiovascular Life Support (ACLS) with the primary source.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "84a78465-18d3-4ac5-b44a-820adc349a92",
+        "document_id": "537b4d91-3536-4046-8208-a4c042122d25",
+        "quote": "ACLS Provider \u2014 expires 07/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): confirmed by reviewed evidence.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "8e98422a-ec01-49e5-8b3a-21083100f2e4",
+        "document_id": "537b4d91-3536-4046-8208-a4c042122d25",
+        "quote": "Bachelor of Science in Nursing \u2014 Ohio Valley University, 2016",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "met",
+      "explanation": "3.1 years of reviewed acute care experience (requires 2+ years acute care experience).",
+      "points_earned": 4.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "db7a99e4-0a32-463a-a514-cd5e3e36962b",
+        "document_id": "537b4d91-3536-4046-8208-a4c042122d25",
+        "quote": "Staff Nurse, Medical ICU \u2014 Riverside General Hospital, Columbus, OH | 10/2023 \u2013 Present",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No CCRN \u2014 Critical Care Registered Nurse (certification) on file.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "met",
+      "explanation": "Ventilator management: confirmed by reviewed evidence.",
+      "points_earned": 2.0,
+      "points_possible": 2.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "3d32033f-54ae-4a15-974a-cf19992a2839",
+        "document_id": "537b4d91-3536-4046-8208-a4c042122d25",
+        "quote": "Ventilator management",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "Hemodynamic monitoring: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "b2dac11d-7a41-4da7-be70-7707e1bfc6e8",
+        "document_id": "537b4d91-3536-4046-8208-a4c042122d25",
+        "quote": "Hemodynamic monitoring",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "EHR \u2014 Epic: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "800b57bb-cf29-48d3-a4ac-82dd40b6071c",
+        "document_id": "537b4d91-3536-4046-8208-a4c042122d25",
+        "quote": "Epic EHR",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 20,
+      "label": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be"
+     },
+     {
+      "priority": 45,
+      "label": "Verify Basic Life Support (BLS) with the primary source.",
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b"
+     },
+     {
+      "priority": 45,
+      "label": "Verify Advanced Cardiovascular Life Support (ACLS) with the primary source.",
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4"
+     },
+     {
+      "priority": 130,
+      "label": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2"
+     }
+    ]
+   }
+  },
+  {
+   "candidate": {
+    "id": "37133a36-d73f-40bf-897a-8a53acbef71e",
+    "full_name": "Hannah Wright",
+    "status": "new",
+    "headline": "Telemetry RN",
+    "assigned_to_this_job": false
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 27,
+    "eligibility": "missing_information",
+    "eligibility_explanation": "Missing information for: Basic Life Support (BLS); Advanced Cardiovascular Life Support (ACLS).",
+    "score_explanation": "Score = weighted points earned / possible = 6.5 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 0,
+    "not_satisfied": 0,
+    "pending": 4,
+    "unknown": 5,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "pending",
+      "explanation": "Registered Nurse (RN) License: Extracted data has not been reviewed by a person.",
+      "points_earned": 2.5,
+      "points_possible": 5.0,
+      "next_action": "Review the extracted Registered Nurse (RN) License.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "a7e322c9-c700-4815-a82e-ea61dcbacdb1",
+        "document_id": "c14345ae-75fe-45ea-853c-0499d26418f8",
+        "quote": "Registered Nurse, Ohio \u2014 License #RN-90012, expires 01/16/2028",
+        "review_state": "unreviewed",
+        "status": "pending_review"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No Basic Life Support (BLS) on file.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Request a copy of the candidate's Basic Life Support (BLS).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No Advanced Cardiovascular Life Support (ACLS) on file.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "pending",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): found in documents, awaiting review.",
+      "points_earned": 1.5,
+      "points_possible": 3.0,
+      "next_action": "Review the extracted Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN).",
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "b6facd8b-2205-4636-af92-e683c7d000b6",
+        "document_id": "c14345ae-75fe-45ea-853c-0499d26418f8",
+        "quote": "Bachelor of Science in Nursing \u2014 Ohio Valley University, 2022",
+        "review_state": "unreviewed",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "pending",
+      "explanation": "2.1 years of acute care experience documented (requires 2+ years acute care experience); awaiting review.",
+      "points_earned": 2.0,
+      "points_possible": 4.0,
+      "next_action": "Review the candidate's work history.",
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "835e322f-e492-436d-85a7-b758abc66d15",
+        "document_id": "c14345ae-75fe-45ea-853c-0499d26418f8",
+        "quote": "RN, Progressive Care Telemetry \u2014 Riverside General Hospital, Columbus, OH | 10/2024 \u2013 Present",
+        "review_state": "unreviewed",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No CCRN \u2014 Critical Care Registered Nurse (certification) on file.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No evidence of Ventilator management in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Ask the candidate to confirm Ventilator management.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "unknown",
+      "explanation": "No evidence of Hemodynamic monitoring in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 1.0,
+      "next_action": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "pending",
+      "explanation": "EHR \u2014 Epic: found in documents, awaiting review.",
+      "points_earned": 0.5,
+      "points_possible": 1.0,
+      "next_action": "Review the extracted EHR \u2014 Epic.",
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "ccaaef9e-a2f4-4098-9c87-ea52a9e23580",
+        "document_id": "c14345ae-75fe-45ea-853c-0499d26418f8",
+        "quote": "Epic EHR",
+        "review_state": "unreviewed",
+        "status": null
+       }
+      ]
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Basic Life Support (BLS).",
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b"
+     },
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4"
+     },
+     {
+      "priority": 40,
+      "label": "Review the extracted Registered Nurse (RN) License.",
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be"
+     },
+     {
+      "priority": 50,
+      "label": "Review the extracted Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN).",
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c"
+     },
+     {
+      "priority": 50,
+      "label": "Review the candidate's work history.",
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc"
+     },
+     {
+      "priority": 130,
+      "label": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2"
+     },
+     {
+      "priority": 150,
+      "label": "Review the extracted EHR \u2014 Epic.",
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Ventilator management.",
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6"
+     }
+    ]
+   }
+  },
+  {
+   "candidate": {
+    "id": "27b03821-c7ca-4c17-ae24-01e4d872562c",
+    "full_name": "Noah Kim",
+    "status": "new",
+    "headline": "Nursing assistant",
+    "assigned_to_this_job": false
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 0,
+    "eligibility": "missing_information",
+    "eligibility_explanation": "Missing information for: Registered Nurse (RN) License (valid \u2265 30 days); Basic Life Support (BLS); Advanced Cardiovascular Life Support (ACLS); Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN); 2+ years acute care experience.",
+    "score_explanation": "Score = weighted points earned / possible = 0 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 0,
+    "not_satisfied": 0,
+    "pending": 0,
+    "unknown": 9,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "unknown",
+      "explanation": "No Registered Nurse (RN) License on file.",
+      "points_earned": 0.0,
+      "points_possible": 5.0,
+      "next_action": "Request a copy of the candidate's Registered Nurse (RN) License.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No Basic Life Support (BLS) on file.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Request a copy of the candidate's Basic Life Support (BLS).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No Advanced Cardiovascular Life Support (ACLS) on file.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No evidence of Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN) in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Ask the candidate to confirm Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "unknown",
+      "explanation": "No work history has been extracted.",
+      "points_earned": 0.0,
+      "points_possible": 4.0,
+      "next_action": "Request a resume with work history.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No CCRN \u2014 Critical Care Registered Nurse (certification) on file.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No evidence of Ventilator management in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Ask the candidate to confirm Ventilator management.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "unknown",
+      "explanation": "No evidence of Hemodynamic monitoring in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 1.0,
+      "next_action": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "unknown",
+      "explanation": "No evidence of EHR \u2014 Epic in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 1.0,
+      "next_action": "Ask the candidate to confirm EHR \u2014 Epic.",
+      "evidence": []
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Registered Nurse (RN) License.",
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be"
+     },
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Basic Life Support (BLS).",
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b"
+     },
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4"
+     },
+     {
+      "priority": 35,
+      "label": "Request a resume with work history.",
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc"
+     },
+     {
+      "priority": 60,
+      "label": "Ask the candidate to confirm Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN).",
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c"
+     },
+     {
+      "priority": 130,
+      "label": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Ventilator management.",
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm EHR \u2014 Epic.",
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5"
+     }
+    ]
+   }
+  },
+  {
+   "candidate": {
+    "id": "7ddd1437-0e76-4d3c-b0dd-a717d68a976a",
+    "full_name": "Tom Becker",
+    "status": "screening",
+    "headline": "ICU RN, 7 yrs, CCRN",
+    "assigned_to_this_job": true
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 79,
+    "eligibility": "requirement_not_met",
+    "eligibility_explanation": "Required requirement not met: Registered Nurse (RN) License (valid \u2265 30 days).",
+    "score_explanation": "Score = weighted points earned / possible = 19 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 8,
+    "not_satisfied": 1,
+    "pending": 0,
+    "unknown": 0,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "not_met",
+      "explanation": "Registered Nurse (RN) License: Expired on Oct 11, 2026 (12 days ago).",
+      "points_earned": 0.0,
+      "points_possible": 5.0,
+      "next_action": "Request renewed Registered Nurse (RN) License.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "e7cdb511-08e5-49c0-a768-d61b3f5a7265",
+        "document_id": "1b624a0e-62dc-4be1-8255-bcbd26bd30b7",
+        "quote": "License Type: Registered Nurse\nLicense Number: RN-22417\nState: Ohio\nOriginal Issue Date: 10/23/2017\nExpiration Date: 10/11/2026",
+        "review_state": "accepted",
+        "status": "expired"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "dad0dc14-5977-48b7-a0ce-9f5aec88c2c9",
+        "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+        "quote": "Registered Nurse, Ohio \u2014 License #RN-22417, expires 10/11/2026",
+        "review_state": "accepted",
+        "status": "expired"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Basic Life Support (BLS): Reviewed and verified; valid until Aug 31, 2027.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "b0bd56a8-694e-42fe-8d89-9fab8e678b71",
+        "document_id": "d05be516-d811-44e9-ad49-920bdafe678d",
+        "quote": "BLS Provider \u2014 Basic Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Tom Becker\nIssue Date: 08/2025\nRenew By: 08/2027\neCard Code: MRTN-22417-B",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "dd19de10-32af-4eef-93f1-09ab16579251",
+        "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+        "quote": "BLS Provider, exp. 08/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Advanced Cardiovascular Life Support (ACLS): Reviewed and verified; valid until Aug 31, 2027.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "285a8325-1c7a-4bec-b5f6-0aa4acb742bb",
+        "document_id": "00f30ebd-6e32-4339-955d-ec5857f6d8a8",
+        "quote": "ACLS Provider \u2014 Advanced Cardiovascular Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Tom Becker\nIssue Date: 08/2025\nRenew By: 08/2027\neCard Code: MRTN-22417-A",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "581a2855-24e8-4241-a50f-0485942647ca",
+        "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+        "quote": "ACLS Provider \u2014 expires 08/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): confirmed by reviewed evidence.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "968adb2f-3ce5-435c-940d-72e6611041b9",
+        "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+        "quote": "Bachelor of Science in Nursing \u2014 Ohio Valley University, 2016",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "met",
+      "explanation": "7.1 years of reviewed acute care experience (requires 2+ years acute care experience).",
+      "points_earned": 4.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "37d19b9a-d4ea-44d6-aeb6-4cd40902bee2",
+        "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+        "quote": "Staff Nurse, Medical ICU \u2014 Riverside General Hospital, Columbus, OH | 10/2019 \u2013 Present",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "met",
+      "explanation": "CCRN \u2014 Critical Care Registered Nurse (certification): Reviewed and verified; valid until Jun 14, 2028.",
+      "points_earned": 2.0,
+      "points_possible": 2.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "e8dfbab4-073e-4dc7-9cff-89b67b2bae8e",
+        "document_id": "4682b257-60dc-43f1-ade7-118483d97f23",
+        "quote": "Certification: CCRN (Adult)\nCertification Number: CC-22417\nIssue Date: June 10, 2025\nExpiration Date: June 14, 2028",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "34b3b62d-30be-4234-bbe9-c2ed8993b962",
+        "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+        "quote": "CCRN (Critical Care Nursing Certification Council), valid through 06/2028",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "met",
+      "explanation": "Ventilator management: confirmed by reviewed evidence.",
+      "points_earned": 2.0,
+      "points_possible": 2.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "13a6c3aa-9a22-40b4-b1bf-6a37ed51eb2b",
+        "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+        "quote": "Ventilator management",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "Hemodynamic monitoring: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "640b8594-eb7e-4b6d-b151-e19319c0349e",
+        "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+        "quote": "Hemodynamic monitoring",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "met",
+      "explanation": "EHR \u2014 Epic: confirmed by reviewed evidence.",
+      "points_earned": 1.0,
+      "points_possible": 1.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "6cb5e30e-5e68-4f8d-b151-4e5291fb210d",
+        "document_id": "7ddb4d97-6be6-4eed-ac31-68d19f381d2a",
+        "quote": "Epic EHR",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 10,
+      "label": "Request renewed Registered Nurse (RN) License.",
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be"
+     }
+    ]
+   }
+  },
+  {
+   "candidate": {
+    "id": "d45537be-9447-4ec5-a06b-8c6f5a99e5a1",
+    "full_name": "Priya Raman",
+    "status": "screening",
+    "headline": "Med-surg RN",
+    "assigned_to_this_job": false
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 50,
+    "eligibility": "requirement_not_met",
+    "eligibility_explanation": "Required requirement not met: Basic Life Support (BLS).",
+    "score_explanation": "Score = weighted points earned / possible = 12 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 3,
+    "not_satisfied": 1,
+    "pending": 0,
+    "unknown": 5,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "met",
+      "explanation": "Registered Nurse (RN) License: Reviewed and verified; valid until Aug 19, 2027.",
+      "points_earned": 5.0,
+      "points_possible": 5.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "694ee32d-6c31-469b-88c7-14e4256bd9d7",
+        "document_id": "e4c99dbc-2e7e-4d0a-8520-a5afca30f89e",
+        "quote": "License Type: Registered Nurse\nLicense Number: RN-60331\nState: Ohio\nOriginal Issue Date: 08/12/2023\nExpiration Date: 08/19/2027",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "c2e2d26b-a899-46c6-9652-324995a06ac1",
+        "document_id": "20ff0b67-5952-474b-9570-e758e08403ee",
+        "quote": "Registered Nurse, Ohio \u2014 License #RN-60331, expires 08/19/2027",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "not_met",
+      "explanation": "Basic Life Support (BLS): Expired on Aug 31, 2026 (53 days ago).",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Request renewed Basic Life Support (BLS).",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "e4274688-afde-4cb1-ad68-2e9630b3ef67",
+        "document_id": "37cde1a5-d0a3-487a-8c06-3e0b0927864e",
+        "quote": "BLS Provider \u2014 Basic Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Priya Raman\nIssue Date: 08/2024\nRenew By: 08/2026\neCard Code: MRTN-60331-B",
+        "review_state": "accepted",
+        "status": "expired"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "90c5d1e3-6821-4a5f-b5d1-3548a8f16629",
+        "document_id": "20ff0b67-5952-474b-9570-e758e08403ee",
+        "quote": "BLS Provider, exp. 08/2026",
+        "review_state": "accepted",
+        "status": "expired"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No Advanced Cardiovascular Life Support (ACLS) on file.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): confirmed by reviewed evidence.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "155ab2d5-037f-4585-b360-5389ff0f43d4",
+        "document_id": "20ff0b67-5952-474b-9570-e758e08403ee",
+        "quote": "Associate of Science in Nursing \u2014 Miami Valley Community College, 2022",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "met",
+      "explanation": "3.1 years of reviewed acute care experience (requires 2+ years acute care experience).",
+      "points_earned": 4.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "c6ba8130-b546-49a9-8f35-56230fb66aa1",
+        "document_id": "20ff0b67-5952-474b-9570-e758e08403ee",
+        "quote": "Registered Nurse, Medical-Surgical Unit \u2014 Mercy Valley Medical Center, Dayton, OH | 10/2023 \u2013 Present",
+        "review_state": "accepted",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No CCRN \u2014 Critical Care Registered Nurse (certification) on file.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No evidence of Ventilator management in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Ask the candidate to confirm Ventilator management.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "unknown",
+      "explanation": "No evidence of Hemodynamic monitoring in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 1.0,
+      "next_action": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "unknown",
+      "explanation": "No evidence of EHR \u2014 Epic in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 1.0,
+      "next_action": "Ask the candidate to confirm EHR \u2014 Epic.",
+      "evidence": []
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 10,
+      "label": "Request renewed Basic Life Support (BLS).",
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b"
+     },
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4"
+     },
+     {
+      "priority": 130,
+      "label": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Ventilator management.",
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm EHR \u2014 Epic.",
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5"
+     }
+    ]
+   }
+  },
+  {
+   "candidate": {
+    "id": "85e3e3d4-8adc-4b42-9433-abe56f861504",
+    "full_name": "Aisha Bello",
+    "status": "new",
+    "headline": "New-graduate RN",
+    "assigned_to_this_job": false
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 25,
+    "eligibility": "requirement_not_met",
+    "eligibility_explanation": "Required requirement not met: 2+ years acute care experience.",
+    "score_explanation": "Score = weighted points earned / possible = 6 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 0,
+    "not_satisfied": 1,
+    "pending": 4,
+    "unknown": 4,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "pending",
+      "explanation": "Registered Nurse (RN) License: Extracted data has not been reviewed by a person.",
+      "points_earned": 2.5,
+      "points_possible": 5.0,
+      "next_action": "Review the extracted Registered Nurse (RN) License.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "3c372eb6-ccf6-44b1-a2f0-fef89129c27d",
+        "document_id": "e4107f74-4fc6-48ab-87fb-86a8536aac27",
+        "quote": "Registered Nurse, Ohio \u2014 License #RN-81290, expires 07/04/2028",
+        "review_state": "unreviewed",
+        "status": "pending_review"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "pending",
+      "explanation": "Basic Life Support (BLS): Extracted data has not been reviewed by a person.",
+      "points_earned": 1.5,
+      "points_possible": 3.0,
+      "next_action": "Review the extracted Basic Life Support (BLS).",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "5d86638e-826f-41bf-abcd-42a79be10b39",
+        "document_id": "e4107f74-4fc6-48ab-87fb-86a8536aac27",
+        "quote": "BLS Provider, exp. 06/2028",
+        "review_state": "unreviewed",
+        "status": "pending_review"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No Advanced Cardiovascular Life Support (ACLS) on file.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "pending",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): found in documents, awaiting review.",
+      "points_earned": 1.5,
+      "points_possible": 3.0,
+      "next_action": "Review the extracted Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN).",
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "ef1887f8-bc93-4359-92ea-58d3d3abcca3",
+        "document_id": "e4107f74-4fc6-48ab-87fb-86a8536aac27",
+        "quote": "Bachelor of Science in Nursing \u2014 Wright Valley University, 2025",
+        "review_state": "unreviewed",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "not_met",
+      "explanation": "Documented acute care experience totals 1.5 years; the role requires 2+ years acute care experience.",
+      "points_earned": 0.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "26307221-4d25-49f6-abab-780b378af228",
+        "document_id": "e4107f74-4fc6-48ab-87fb-86a8536aac27",
+        "quote": "Nurse Resident, Medical-Surgical\nKettering Valley Hospital \u00b7 May 2025 to Present",
+        "review_state": "unreviewed",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No CCRN \u2014 Critical Care Registered Nurse (certification) on file.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No evidence of Ventilator management in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Ask the candidate to confirm Ventilator management.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "unknown",
+      "explanation": "No evidence of Hemodynamic monitoring in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 1.0,
+      "next_action": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "pending",
+      "explanation": "EHR \u2014 Epic: found in documents, awaiting review.",
+      "points_earned": 0.5,
+      "points_possible": 1.0,
+      "next_action": "Review the extracted EHR \u2014 Epic.",
+      "evidence": [
+       {
+        "claim_type": "skill",
+        "claim_id": "31b38d47-9c20-4b0a-83f4-43486b0ffa94",
+        "document_id": "e4107f74-4fc6-48ab-87fb-86a8536aac27",
+        "quote": "Epic EHR",
+        "review_state": "unreviewed",
+        "status": null
+       }
+      ]
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4"
+     },
+     {
+      "priority": 40,
+      "label": "Review the extracted Registered Nurse (RN) License.",
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be"
+     },
+     {
+      "priority": 40,
+      "label": "Review the extracted Basic Life Support (BLS).",
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b"
+     },
+     {
+      "priority": 50,
+      "label": "Review the extracted Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN).",
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c"
+     },
+     {
+      "priority": 130,
+      "label": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2"
+     },
+     {
+      "priority": 150,
+      "label": "Review the extracted EHR \u2014 Epic.",
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Ventilator management.",
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6"
+     }
+    ]
+   }
+  },
+  {
+   "candidate": {
+    "id": "0f8fbae0-971f-4a6b-93bf-bf02286a5d2d",
+    "full_name": "Elena Petrova",
+    "status": "onboarding",
+    "headline": "Certified Nursing Assistant",
+    "assigned_to_this_job": false
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 12,
+    "eligibility": "requirement_not_met",
+    "eligibility_explanation": "Required requirement not met: 2+ years acute care experience.",
+    "score_explanation": "Score = weighted points earned / possible = 3 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 1,
+    "not_satisfied": 1,
+    "pending": 0,
+    "unknown": 7,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "unknown",
+      "explanation": "No Registered Nurse (RN) License on file.",
+      "points_earned": 0.0,
+      "points_possible": 5.0,
+      "next_action": "Request a copy of the candidate's Registered Nurse (RN) License.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "met",
+      "explanation": "Basic Life Support (BLS): Reviewed and verified; valid until Jan 31, 2028.",
+      "points_earned": 3.0,
+      "points_possible": 3.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "0195e6c7-ab86-432e-bab6-3872d381d273",
+        "document_id": "e86383d9-2c24-4035-ae2b-18832424884d",
+        "quote": "BLS Provider \u2014 Basic Life Support\nSYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL\n\nName: Elena Petrova\nIssue Date: 01/2026\nRenew By: 01/2028\neCard Code: MRTN-18204-B",
+        "review_state": "accepted",
+        "status": "verified"
+       },
+       {
+        "claim_type": "credential",
+        "claim_id": "90f9a446-c28e-4189-bde5-98476b4b1396",
+        "document_id": "5af886c4-e4de-4631-a295-3ced1b86de46",
+        "quote": "BLS Provider, exp. 01/2028",
+        "review_state": "accepted",
+        "status": "pending_verification"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No Advanced Cardiovascular Life Support (ACLS) on file.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No evidence of Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN) in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Ask the candidate to confirm Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "not_met",
+      "explanation": "Documented acute care experience totals 0.0 years; the role requires 2+ years acute care experience.",
+      "points_earned": 0.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": []
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No CCRN \u2014 Critical Care Registered Nurse (certification) on file.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No evidence of Ventilator management in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Ask the candidate to confirm Ventilator management.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "unknown",
+      "explanation": "No evidence of Hemodynamic monitoring in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 1.0,
+      "next_action": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "unknown",
+      "explanation": "No evidence of EHR \u2014 Epic in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 1.0,
+      "next_action": "Ask the candidate to confirm EHR \u2014 Epic.",
+      "evidence": []
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Registered Nurse (RN) License.",
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be"
+     },
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4"
+     },
+     {
+      "priority": 60,
+      "label": "Ask the candidate to confirm Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN).",
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c"
+     },
+     {
+      "priority": 130,
+      "label": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Ventilator management.",
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm EHR \u2014 Epic.",
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5"
+     }
+    ]
+   }
+  },
+  {
+   "candidate": {
+    "id": "400a161b-e07d-48df-abfe-8a51736b63bc",
+    "full_name": "Jordan Ellis",
+    "status": "new",
+    "headline": "Med-surg RN",
+    "assigned_to_this_job": false
+   },
+   "match": {
+    "job": {
+     "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+     "title": "ICU Registered Nurse"
+    },
+    "score": 6,
+    "eligibility": "requirement_not_met",
+    "eligibility_explanation": "Required requirement not met: 2+ years acute care experience.",
+    "score_explanation": "Score = weighted points earned / possible = 1.5 / 24. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+    "satisfied": 0,
+    "not_satisfied": 1,
+    "pending": 1,
+    "unknown": 7,
+    "requirements": [
+     {
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be",
+      "kind": "credential",
+      "label": "Registered Nurse (RN) License (valid \u2265 30 days)",
+      "is_required": true,
+      "weight": 5,
+      "outcome": "unknown",
+      "explanation": "Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+      "points_earned": 0.0,
+      "points_possible": 5.0,
+      "next_action": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "b8b97d68-94dd-4328-ad3c-4f89d478867d",
+        "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+        "quote": "Registered Nurse, Ohio \u2014 verified by state registry",
+        "review_state": "unreviewed",
+        "status": "unable_to_determine"
+       }
+      ]
+     },
+     {
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b",
+      "kind": "credential",
+      "label": "Basic Life Support (BLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "Basic Life Support (BLS): No expiration date could be established from the evidence. Enter it after checking the source.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Resolve Basic Life Support (BLS): No expiration date could be established from the evidence. Enter it after checking the source.",
+      "evidence": [
+       {
+        "claim_type": "credential",
+        "claim_id": "96d6b4e3-caf1-480f-b49a-fa06705c2938",
+        "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+        "quote": "BLS Provider \u2014 current",
+        "review_state": "unreviewed",
+        "status": "unable_to_determine"
+       }
+      ]
+     },
+     {
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4",
+      "kind": "credential",
+      "label": "Advanced Cardiovascular Life Support (ACLS)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "unknown",
+      "explanation": "No Advanced Cardiovascular Life Support (ACLS) on file.",
+      "points_earned": 0.0,
+      "points_possible": 3.0,
+      "next_action": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c",
+      "kind": "qualification",
+      "label": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN)",
+      "is_required": true,
+      "weight": 3,
+      "outcome": "pending",
+      "explanation": "Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN): found in documents, awaiting review.",
+      "points_earned": 1.5,
+      "points_possible": 3.0,
+      "next_action": "Review the extracted Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN).",
+      "evidence": [
+       {
+        "claim_type": "qualification",
+        "claim_id": "2f2e75f3-534a-4139-830c-3bd2cdbad9ba",
+        "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+        "quote": "Associate Degree in Nursing \u2014 Clark State College, 2025",
+        "review_state": "unreviewed",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "4b964e7b-0720-4ba6-8232-060a7e1148cc",
+      "kind": "experience",
+      "label": "2+ years acute care experience",
+      "is_required": true,
+      "weight": 4,
+      "outcome": "not_met",
+      "explanation": "Documented acute care experience totals 0.8 years; the role requires 2+ years acute care experience.",
+      "points_earned": 0.0,
+      "points_possible": 4.0,
+      "next_action": null,
+      "evidence": [
+       {
+        "claim_type": "experience",
+        "claim_id": "895f725c-578f-4f93-b22b-4be152b2cc96",
+        "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+        "quote": "Registered Nurse, Med-Surg \u2014 Clark County Hospital, Springfield, OH | 01/2026 \u2013 Present",
+        "review_state": "unreviewed",
+        "status": null
+       }
+      ]
+     },
+     {
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2",
+      "kind": "credential",
+      "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No CCRN \u2014 Critical Care Registered Nurse (certification) on file.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "evidence": []
+     },
+     {
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb",
+      "kind": "skill",
+      "label": "Ventilator management",
+      "is_required": false,
+      "weight": 2,
+      "outcome": "unknown",
+      "explanation": "No evidence of Ventilator management in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 2.0,
+      "next_action": "Ask the candidate to confirm Ventilator management.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6",
+      "kind": "skill",
+      "label": "Hemodynamic monitoring",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "unknown",
+      "explanation": "No evidence of Hemodynamic monitoring in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 1.0,
+      "next_action": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "evidence": []
+     },
+     {
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5",
+      "kind": "skill",
+      "label": "EHR \u2014 Epic",
+      "is_required": false,
+      "weight": 1,
+      "outcome": "unknown",
+      "explanation": "No evidence of EHR \u2014 Epic in the candidate's documents. Absence of evidence is not treated as a failure.",
+      "points_earned": 0.0,
+      "points_possible": 1.0,
+      "next_action": "Ask the candidate to confirm EHR \u2014 Epic.",
+      "evidence": []
+     }
+    ],
+    "next_actions": [
+     {
+      "priority": 20,
+      "label": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+      "requirement_id": "3fbe30a2-bd2f-497d-ab47-bc3988ba97be"
+     },
+     {
+      "priority": 20,
+      "label": "Resolve Basic Life Support (BLS): No expiration date could be established from the evidence. Enter it after checking the source.",
+      "requirement_id": "3cea897e-a967-4957-8a03-fe63151d2e8b"
+     },
+     {
+      "priority": 30,
+      "label": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+      "requirement_id": "621a9b3a-2fc3-4896-bd14-9c4df4b063e4"
+     },
+     {
+      "priority": 50,
+      "label": "Review the extracted Bachelor of Science in Nursing (BSN) or Associate Degree in Nursing (ADN/ASN).",
+      "requirement_id": "ca11f394-05d0-45a6-a40e-8b8f6d7eb48c"
+     },
+     {
+      "priority": 130,
+      "label": "Request a copy of the candidate's CCRN \u2014 Critical Care Registered Nurse (certification).",
+      "requirement_id": "ebfb1994-7202-41c0-8a44-43a7590171c2"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Ventilator management.",
+      "requirement_id": "92e0e955-e156-4583-ab0b-2cce6ae79cbb"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm Hemodynamic monitoring.",
+      "requirement_id": "73bce6ba-9b8f-46c5-8520-dceb17bf0dd6"
+     },
+     {
+      "priority": 180,
+      "label": "Ask the candidate to confirm EHR \u2014 Epic.",
+      "requirement_id": "927b3c94-de37-4fd4-9ae2-5daa9b59c2b5"
+     }
+    ]
+   }
+  }
+ ]
+}

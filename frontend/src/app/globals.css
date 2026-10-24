@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-brand-50: #effaf8;
+  --color-brand-100: #d7f2ec;
+  --color-brand-200: #b0e4da;
+  --color-brand-500: #14907f;
+  --color-brand-600: #0e7568;
+  --color-brand-700: #0f5f56;
+  --color-brand-800: #114c46;
+  --color-ink: #0f172a;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: #f6f7f9;
+  color: var(--color-ink);
+  font-feature-settings: "cv11", "ss01";
+}
+
+/* Keyboard focus is always visible. */
+:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+}
+
+dialog::backdrop {
+  background: rgb(15 23 42 / 0.45);
+}
+
+mark.evidence {
+  background: #fde68a;
+  color: inherit;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px #f59e0b;
+}
+
+mark.evidence-active {
+  background: #fcd34d;
+  box-shadow: 0 0 0 2px #d97706;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

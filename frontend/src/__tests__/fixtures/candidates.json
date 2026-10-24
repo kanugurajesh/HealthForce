@@ -1,0 +1,383 @@
+{
+ "items": [
+  {
+   "id": "37133a36-d73f-40bf-897a-8a53acbef71e",
+   "full_name": "Hannah Wright",
+   "headline": "Telemetry RN",
+   "location": "Columbus, OH",
+   "status": "new",
+   "job": null,
+   "eligibility": null,
+   "score": null,
+   "credential_statuses": [
+    "pending_review"
+   ],
+   "missing_credentials": [],
+   "unreviewed_claims": 5,
+   "flagged_claims": 0,
+   "nearest_expiration": {
+    "date": "2028-01-16",
+    "type_code": "RN_LICENSE",
+    "type_label": "Registered Nurse (RN) License",
+    "days": 450
+   },
+   "next_action": "Assign a job role to evaluate this candidate against its requirements.",
+   "tasks_total": 0,
+   "tasks_done": 0,
+   "updated_at": "2026-10-23T16:05:04.702620"
+  },
+  {
+   "id": "27b03821-c7ca-4c17-ae24-01e4d872562c",
+   "full_name": "Noah Kim",
+   "headline": "Nursing assistant",
+   "location": "Columbus, OH",
+   "status": "new",
+   "job": {
+    "id": "5acfa174-8b6a-484a-9cac-487956e6c33e",
+    "title": "Certified Nursing Assistant"
+   },
+   "eligibility": "missing_information",
+   "score": 0,
+   "credential_statuses": [
+    "missing"
+   ],
+   "missing_credentials": [
+    "Certified Nursing Assistant (CNA)",
+    "Basic Life Support (BLS)"
+   ],
+   "unreviewed_claims": 0,
+   "flagged_claims": 0,
+   "nearest_expiration": null,
+   "next_action": "Processing failed for 'scanned_cna_certificate.pdf': retry it or enter the details manually.",
+   "tasks_total": 0,
+   "tasks_done": 0,
+   "updated_at": "2026-10-23T16:05:04.615607"
+  },
+  {
+   "id": "400a161b-e07d-48df-abfe-8a51736b63bc",
+   "full_name": "Jordan Ellis",
+   "headline": "Med-surg RN",
+   "location": "Springfield, OH",
+   "status": "new",
+   "job": {
+    "id": "2ca22a2a-5b55-4110-a8e4-ae607900ab50",
+    "title": "Medical-Surgical Registered Nurse"
+   },
+   "eligibility": "requirement_not_met",
+   "score": 11,
+   "credential_statuses": [
+    "missing",
+    "unable_to_determine"
+   ],
+   "missing_credentials": [
+    "Tuberculosis (TB) Screening"
+   ],
+   "unreviewed_claims": 6,
+   "flagged_claims": 6,
+   "nearest_expiration": null,
+   "next_action": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+   "tasks_total": 0,
+   "tasks_done": 0,
+   "updated_at": "2026-10-23T16:05:04.608443"
+  },
+  {
+   "id": "0f8fbae0-971f-4a6b-93bf-bf02286a5d2d",
+   "full_name": "Elena Petrova",
+   "headline": "Certified Nursing Assistant",
+   "location": "Columbus, OH",
+   "status": "onboarding",
+   "job": {
+    "id": "5acfa174-8b6a-484a-9cac-487956e6c33e",
+    "title": "Certified Nursing Assistant"
+   },
+   "eligibility": "meets_all_required",
+   "score": 100,
+   "credential_statuses": [
+    "verified"
+   ],
+   "missing_credentials": [],
+   "unreviewed_claims": 0,
+   "flagged_claims": 0,
+   "nearest_expiration": {
+    "date": "2027-11-27",
+    "type_code": "CNA_CERT",
+    "type_label": "Certified Nursing Assistant (CNA)",
+    "days": 400
+   },
+   "next_action": "Complete 5 remaining onboarding task(s).",
+   "tasks_total": 7,
+   "tasks_done": 2,
+   "updated_at": "2026-10-23T16:05:04.503031"
+  },
+  {
+   "id": "7ddd1437-0e76-4d3c-b0dd-a717d68a976a",
+   "full_name": "Tom Becker",
+   "headline": "ICU RN, 7 yrs, CCRN",
+   "location": "Columbus, OH",
+   "status": "screening",
+   "job": {
+    "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+    "title": "ICU Registered Nurse"
+   },
+   "eligibility": "requirement_not_met",
+   "score": 79,
+   "credential_statuses": [
+    "expired",
+    "verified"
+   ],
+   "missing_credentials": [],
+   "unreviewed_claims": 0,
+   "flagged_claims": 0,
+   "nearest_expiration": {
+    "date": "2027-08-31",
+    "type_code": "ACLS",
+    "type_label": "Advanced Cardiovascular Life Support (ACLS)",
+    "days": 312
+   },
+   "next_action": "Request renewed Registered Nurse (RN) License.",
+   "tasks_total": 0,
+   "tasks_done": 0,
+   "updated_at": "2026-10-23T16:05:04.114414"
+  },
+  {
+   "id": "85e3e3d4-8adc-4b42-9433-abe56f861504",
+   "full_name": "Aisha Bello",
+   "headline": "New-graduate RN",
+   "location": "Dayton, OH",
+   "status": "new",
+   "job": {
+    "id": "2ca22a2a-5b55-4110-a8e4-ae607900ab50",
+    "title": "Medical-Surgical Registered Nurse"
+   },
+   "eligibility": "pending",
+   "score": 47,
+   "credential_statuses": [
+    "pending_review"
+   ],
+   "missing_credentials": [],
+   "unreviewed_claims": 9,
+   "flagged_claims": 1,
+   "nearest_expiration": {
+    "date": "2027-10-03",
+    "type_code": "TB_SCREEN",
+    "type_label": "Tuberculosis (TB) Screening",
+    "days": 345
+   },
+   "next_action": "Review the extracted Registered Nurse (RN) License.",
+   "tasks_total": 0,
+   "tasks_done": 0,
+   "updated_at": "2026-10-23T16:05:03.607580"
+  },
+  {
+   "id": "adec179d-07c2-4f37-a6fa-112797607a78",
+   "full_name": "Samuel Brooks",
+   "headline": "Cardiac ICU RN",
+   "location": "Columbus, OH",
+   "status": "interview",
+   "job": {
+    "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+    "title": "ICU Registered Nurse"
+   },
+   "eligibility": "meets_all_required",
+   "score": 92,
+   "credential_statuses": [
+    "expiring_soon",
+    "verified"
+   ],
+   "missing_credentials": [],
+   "unreviewed_claims": 0,
+   "flagged_claims": 0,
+   "nearest_expiration": {
+    "date": "2026-11-30",
+    "type_code": "BLS",
+    "type_label": "Basic Life Support (BLS)",
+    "days": 38
+   },
+   "next_action": "Request renewal of Basic Life Support (BLS) (expires Nov 30, 2026).",
+   "tasks_total": 0,
+   "tasks_done": 0,
+   "updated_at": "2026-10-23T16:05:03.556044"
+  },
+  {
+   "id": "e659472b-7e0c-42cc-970f-3d9ee174cede",
+   "full_name": "Grace Liu",
+   "headline": "Surgical ICU RN",
+   "location": "Dublin, OH",
+   "status": "screening",
+   "job": {
+    "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+    "title": "ICU Registered Nurse"
+   },
+   "eligibility": "missing_information",
+   "score": 58,
+   "credential_statuses": [
+    "pending_verification",
+    "unable_to_determine"
+   ],
+   "missing_credentials": [],
+   "unreviewed_claims": 0,
+   "flagged_claims": 0,
+   "nearest_expiration": {
+    "date": "2027-08-31",
+    "type_code": "ACLS",
+    "type_label": "Advanced Cardiovascular Life Support (ACLS)",
+    "days": 312
+   },
+   "next_action": "Resolve Registered Nurse (RN) License: Another record for this credential shows a different expiration date. Reject the incorrect or outdated record to resolve the conflict.",
+   "tasks_total": 0,
+   "tasks_done": 0,
+   "updated_at": "2026-10-23T16:05:03.120562"
+  },
+  {
+   "id": "8075070a-04ed-42aa-9b86-a14437212e8a",
+   "full_name": "Luis Hernandez",
+   "headline": "ICU RN relocating from California",
+   "location": "Columbus, OH",
+   "status": "new",
+   "job": {
+    "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+    "title": "ICU Registered Nurse"
+   },
+   "eligibility": "missing_information",
+   "score": 58,
+   "credential_statuses": [
+    "pending_verification",
+    "unable_to_determine"
+   ],
+   "missing_credentials": [],
+   "unreviewed_claims": 0,
+   "flagged_claims": 0,
+   "nearest_expiration": {
+    "date": "2027-06-30",
+    "type_code": "BLS",
+    "type_label": "Basic Life Support (BLS)",
+    "days": 250
+   },
+   "next_action": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+   "tasks_total": 0,
+   "tasks_done": 0,
+   "updated_at": "2026-10-23T16:05:02.702484"
+  },
+  {
+   "id": "d45537be-9447-4ec5-a06b-8c6f5a99e5a1",
+   "full_name": "Priya Raman",
+   "headline": "Med-surg RN",
+   "location": "Dayton, OH",
+   "status": "screening",
+   "job": {
+    "id": "2ca22a2a-5b55-4110-a8e4-ae607900ab50",
+    "title": "Medical-Surgical Registered Nurse"
+   },
+   "eligibility": "requirement_not_met",
+   "score": 84,
+   "credential_statuses": [
+    "expired",
+    "verified"
+   ],
+   "missing_credentials": [],
+   "unreviewed_claims": 0,
+   "flagged_claims": 0,
+   "nearest_expiration": {
+    "date": "2027-08-19",
+    "type_code": "RN_LICENSE",
+    "type_label": "Registered Nurse (RN) License",
+    "days": 300
+   },
+   "next_action": "Request renewed Basic Life Support (BLS).",
+   "tasks_total": 0,
+   "tasks_done": 0,
+   "updated_at": "2026-10-23T16:05:02.647388"
+  },
+  {
+   "id": "c82e1f53-ff77-4628-be8d-3d75889816e8",
+   "full_name": "Daniel Okafor",
+   "headline": "Step-down RN moving to ICU",
+   "location": "Westerville, OH",
+   "status": "screening",
+   "job": {
+    "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+    "title": "ICU Registered Nurse"
+   },
+   "eligibility": "missing_information",
+   "score": 79,
+   "credential_statuses": [
+    "missing",
+    "verified"
+   ],
+   "missing_credentials": [
+    "Advanced Cardiovascular Life Support (ACLS)"
+   ],
+   "unreviewed_claims": 0,
+   "flagged_claims": 0,
+   "nearest_expiration": {
+    "date": "2027-11-30",
+    "type_code": "BLS",
+    "type_label": "Basic Life Support (BLS)",
+    "days": 403
+   },
+   "next_action": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+   "tasks_total": 0,
+   "tasks_done": 0,
+   "updated_at": "2026-10-23T16:05:02.297411"
+  },
+  {
+   "id": "e2fabcb5-501c-4265-a3d8-1a453f6a5c80",
+   "full_name": "Rachel Adams",
+   "headline": "ICU RN, CCRN",
+   "location": "Columbus, OH",
+   "status": "cleared",
+   "job": {
+    "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+    "title": "ICU Registered Nurse"
+   },
+   "eligibility": "meets_all_required",
+   "score": 100,
+   "credential_statuses": [
+    "verified"
+   ],
+   "missing_credentials": [],
+   "unreviewed_claims": 0,
+   "flagged_claims": 0,
+   "nearest_expiration": {
+    "date": "2028-02-29",
+    "type_code": "ACLS",
+    "type_label": "Advanced Cardiovascular Life Support (ACLS)",
+    "days": 494
+   },
+   "next_action": null,
+   "tasks_total": 7,
+   "tasks_done": 7,
+   "updated_at": "2026-10-23T16:05:01.936120"
+  },
+  {
+   "id": "97dad86f-f437-4fb9-94b0-4a662c83f4ff",
+   "full_name": "Maya Thompson",
+   "headline": "ICU RN, 5 yrs critical care",
+   "location": "Columbus, OH",
+   "status": "onboarding",
+   "job": {
+    "id": "97065c41-48ec-4eaa-b579-490460aeb461",
+    "title": "ICU Registered Nurse"
+   },
+   "eligibility": "meets_all_required",
+   "score": 100,
+   "credential_statuses": [
+    "verified"
+   ],
+   "missing_credentials": [],
+   "unreviewed_claims": 0,
+   "flagged_claims": 0,
+   "nearest_expiration": {
+    "date": "2027-09-30",
+    "type_code": "ACLS",
+    "type_label": "Advanced Cardiovascular Life Support (ACLS)",
+    "days": 342
+   },
+   "next_action": "Complete 1 remaining onboarding task(s).",
+   "tasks_total": 7,
+   "tasks_done": 6,
+   "updated_at": "2026-10-23T16:05:01.071542"
+  }
+ ],
+ "total": 13
+}

@@ -1,0 +1,9 @@
+Occupational Health Services
+Tuberculosis Screening Result
+SYNTHETIC DEMO RECORD - NOT A REAL CREDENTIAL
+
+Name: Marcus Lee
+Credential Type: TB Screening (QuantiFERON-TB Gold)
+Date Read: 02/10/2026
+Result: Negative
+Valid Through: 02/10/2027

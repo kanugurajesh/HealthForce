@@ -1,0 +1,234 @@
+{
+ "as_of": "2026-10-23",
+ "extraction_provider": {
+  "name": "mock",
+  "is_mock": true,
+  "label": "Mock extractor (deterministic heuristics, not AI)",
+  "misconfigured": false
+ },
+ "verification_mode": "simulated",
+ "expiring_soon_days": 60,
+ "max_upload_mb": 5,
+ "credential_types": [
+  {
+   "code": "CCRN",
+   "label": "CCRN \u2014 Critical Care Registered Nurse (certification)",
+   "expires": true,
+   "verification_source": "AACN certification verification (not integrated)"
+  },
+  {
+   "code": "RN_LICENSE",
+   "label": "Registered Nurse (RN) License",
+   "expires": true,
+   "verification_source": "State board of nursing / Nursys (not integrated)"
+  },
+  {
+   "code": "LPN_LICENSE",
+   "label": "Licensed Practical/Vocational Nurse License",
+   "expires": true,
+   "verification_source": "State board of nursing (not integrated)"
+  },
+  {
+   "code": "CNA_CERT",
+   "label": "Certified Nursing Assistant (CNA)",
+   "expires": true,
+   "verification_source": "State nurse aide registry (not integrated)"
+  },
+  {
+   "code": "ACLS",
+   "label": "Advanced Cardiovascular Life Support (ACLS)",
+   "expires": true,
+   "verification_source": "Issuer eCard lookup (not integrated)"
+  },
+  {
+   "code": "PALS",
+   "label": "Pediatric Advanced Life Support (PALS)",
+   "expires": true,
+   "verification_source": "Issuer eCard lookup (not integrated)"
+  },
+  {
+   "code": "BLS",
+   "label": "Basic Life Support (BLS)",
+   "expires": true,
+   "verification_source": "Issuer eCard lookup (not integrated)"
+  },
+  {
+   "code": "TB_SCREEN",
+   "label": "Tuberculosis (TB) Screening",
+   "expires": true,
+   "verification_source": "Occupational health records"
+  }
+ ],
+ "qualifications": [
+  {
+   "code": "MSN",
+   "label": "Master of Science in Nursing (MSN)"
+  },
+  {
+   "code": "BSN",
+   "label": "Bachelor of Science in Nursing (BSN)"
+  },
+  {
+   "code": "ADN",
+   "label": "Associate Degree in Nursing (ADN/ASN)"
+  },
+  {
+   "code": "LPN_DIPLOMA",
+   "label": "Practical Nursing Diploma"
+  },
+  {
+   "code": "CNA_TRAINING",
+   "label": "Nurse Aide Training Program"
+  }
+ ],
+ "skills": [
+  {
+   "code": "ventilator_management",
+   "label": "Ventilator management"
+  },
+  {
+   "code": "hemodynamic_monitoring",
+   "label": "Hemodynamic monitoring"
+  },
+  {
+   "code": "telemetry",
+   "label": "Telemetry / cardiac monitoring"
+  },
+  {
+   "code": "iv_therapy",
+   "label": "IV therapy"
+  },
+  {
+   "code": "medication_administration",
+   "label": "Medication administration"
+  },
+  {
+   "code": "wound_care",
+   "label": "Wound care"
+  },
+  {
+   "code": "epic_ehr",
+   "label": "EHR \u2014 Epic"
+  },
+  {
+   "code": "cerner_ehr",
+   "label": "EHR \u2014 Cerner"
+  },
+  {
+   "code": "sepsis_protocols",
+   "label": "Sepsis protocols"
+  },
+  {
+   "code": "patient_education",
+   "label": "Patient education"
+  },
+  {
+   "code": "phlebotomy",
+   "label": "Phlebotomy"
+  },
+  {
+   "code": "vital_signs",
+   "label": "Vital signs"
+  },
+  {
+   "code": "adl_assistance",
+   "label": "ADL assistance"
+  },
+  {
+   "code": "crrt",
+   "label": "CRRT"
+  },
+  {
+   "code": "triage",
+   "label": "Triage"
+  }
+ ],
+ "experience_settings": [
+  "critical_care",
+  "emergency",
+  "med_surg",
+  "telemetry",
+  "pediatrics",
+  "long_term_care",
+  "outpatient"
+ ],
+ "experience_requirement_settings": [
+  "any",
+  "acute_care",
+  "critical_care",
+  "emergency",
+  "med_surg",
+  "telemetry",
+  "pediatrics",
+  "long_term_care",
+  "outpatient"
+ ],
+ "candidate_statuses": [
+  "new",
+  "screening",
+  "interview",
+  "offer",
+  "onboarding",
+  "cleared",
+  "withdrawn",
+  "not_selected"
+ ],
+ "transitions": {
+  "new": [
+   "not_selected",
+   "screening",
+   "withdrawn"
+  ],
+  "screening": [
+   "interview",
+   "not_selected",
+   "withdrawn"
+  ],
+  "interview": [
+   "not_selected",
+   "offer",
+   "screening",
+   "withdrawn"
+  ],
+  "offer": [
+   "not_selected",
+   "onboarding",
+   "withdrawn"
+  ],
+  "onboarding": [
+   "cleared",
+   "withdrawn"
+  ],
+  "cleared": [
+   "onboarding"
+  ],
+  "withdrawn": [
+   "screening"
+  ],
+  "not_selected": [
+   "screening"
+  ]
+ },
+ "users": [
+  {
+   "id": "c53bd8e2-5c0a-4c50-9e89-5aa316cb4ccc",
+   "full_name": "Avery Admin",
+   "role": "admin"
+  },
+  {
+   "id": "2680dc09-859f-4ca5-9ec3-1e40fd213469",
+   "full_name": "Casey Reviewer",
+   "role": "reviewer"
+  },
+  {
+   "id": "6fbab876-a198-4a1c-9033-584773234990",
+   "full_name": "Riley Recruiter",
+   "role": "recruiter"
+  },
+  {
+   "id": "42f94adf-3073-4290-ae6e-1a1f182efb57",
+   "full_name": "Vic Viewer",
+   "role": "viewer"
+  }
+ ]
+}

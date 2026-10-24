@@ -1,0 +1,18 @@
+fastapi==0.115.14
+uvicorn==0.35.0
+SQLAlchemy==2.0.48
+alembic==1.14.1
+pydantic==2.11.7
+pydantic-settings==2.13.1
+python-multipart==0.0.22
+PyJWT==2.10.1
+pypdf==6.9.1
+groq==1.7.0
+httpx==0.28.1
+# Postgres driver (only needed when DATABASE_URL points at Postgres)
+psycopg[binary]==3.2.3
+
+# dev / test
+pytest==9.0.2
+ruff==0.15.6
+mypy==1.19.1

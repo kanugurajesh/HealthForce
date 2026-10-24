@@ -1,0 +1,24 @@
+# Optional PostgreSQL for running HealthForce Intelligence against its target database.
+# The app itself runs natively (see README). Default dev setup uses SQLite and needs none of this.
+#
+#   docker compose up -d db
+#   set HF_DATABASE_URL=postgresql+psycopg://healthforce:healthforce@localhost:5432/healthforce
+#   python -m app.seed --reset
+services:
+  db:
+    image: postgres:16.4-alpine
+    environment:
+      POSTGRES_USER: healthforce
+      POSTGRES_PASSWORD: healthforce # local development only
+      POSTGRES_DB: healthforce
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U healthforce"]
+      interval: 5s
+      retries: 10
+
+volumes:
+  pgdata:

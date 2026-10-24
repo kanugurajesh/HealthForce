@@ -1,0 +1,354 @@
+{
+ "as_of": "2026-10-23",
+ "metrics": {
+  "total_candidates": 13,
+  "active_candidates": 13,
+  "awaiting_review": 3,
+  "credential_issues": 7,
+  "ready_for_next_step": 1,
+  "in_onboarding": 2,
+  "cleared": 1,
+  "failed_jobs": 1,
+  "queued_jobs": 0
+ },
+ "pipeline": [
+  {
+   "status": "new",
+   "count": 5
+  },
+  {
+   "status": "screening",
+   "count": 4
+  },
+  {
+   "status": "interview",
+   "count": 1
+  },
+  {
+   "status": "offer",
+   "count": 0
+  },
+  {
+   "status": "onboarding",
+   "count": 2
+  },
+  {
+   "status": "cleared",
+   "count": 1
+  },
+  {
+   "status": "withdrawn",
+   "count": 0
+  },
+  {
+   "status": "not_selected",
+   "count": 0
+  }
+ ],
+ "upcoming_expirations": [
+  {
+   "candidate_id": "7ddd1437-0e76-4d3c-b0dd-a717d68a976a",
+   "candidate_name": "Tom Becker",
+   "credential_id": "e7cdb511-08e5-49c0-a768-d61b3f5a7265",
+   "type_code": "RN_LICENSE",
+   "type_label": "Registered Nurse (RN) License",
+   "expiration_date": "2026-10-11",
+   "days_until_expiry": -12,
+   "status": "expired"
+  },
+  {
+   "candidate_id": "adec179d-07c2-4f37-a6fa-112797607a78",
+   "candidate_name": "Samuel Brooks",
+   "credential_id": "9ffa45ce-3970-4d5d-a0a3-963628a7327d",
+   "type_code": "BLS",
+   "type_label": "Basic Life Support (BLS)",
+   "expiration_date": "2026-11-30",
+   "days_until_expiry": 38,
+   "status": "expiring_soon"
+  }
+ ],
+ "next_actions": [
+  {
+   "candidate_id": "27b03821-c7ca-4c17-ae24-01e4d872562c",
+   "candidate_name": "Noah Kim",
+   "label": "Processing failed for 'scanned_cna_certificate.pdf': retry it or enter the details manually.",
+   "priority": 4
+  },
+  {
+   "candidate_id": "37133a36-d73f-40bf-897a-8a53acbef71e",
+   "candidate_name": "Hannah Wright",
+   "label": "Assign a job role to evaluate this candidate against its requirements.",
+   "priority": 5
+  },
+  {
+   "candidate_id": "7ddd1437-0e76-4d3c-b0dd-a717d68a976a",
+   "candidate_name": "Tom Becker",
+   "label": "Request renewed Registered Nurse (RN) License.",
+   "priority": 10
+  },
+  {
+   "candidate_id": "d45537be-9447-4ec5-a06b-8c6f5a99e5a1",
+   "candidate_name": "Priya Raman",
+   "label": "Request renewed Basic Life Support (BLS).",
+   "priority": 10
+  },
+  {
+   "candidate_id": "400a161b-e07d-48df-abfe-8a51736b63bc",
+   "candidate_name": "Jordan Ellis",
+   "label": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+   "priority": 20
+  },
+  {
+   "candidate_id": "e659472b-7e0c-42cc-970f-3d9ee174cede",
+   "candidate_name": "Grace Liu",
+   "label": "Resolve Registered Nurse (RN) License: Another record for this credential shows a different expiration date. Reject the incorrect or outdated record to resolve the conflict.",
+   "priority": 20
+  },
+  {
+   "candidate_id": "8075070a-04ed-42aa-9b86-a14437212e8a",
+   "candidate_name": "Luis Hernandez",
+   "label": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+   "priority": 20
+  },
+  {
+   "candidate_id": "c82e1f53-ff77-4628-be8d-3d75889816e8",
+   "candidate_name": "Daniel Okafor",
+   "label": "Request a copy of the candidate's Advanced Cardiovascular Life Support (ACLS).",
+   "priority": 30
+  },
+  {
+   "candidate_id": "85e3e3d4-8adc-4b42-9433-abe56f861504",
+   "candidate_name": "Aisha Bello",
+   "label": "Review the extracted Registered Nurse (RN) License.",
+   "priority": 40
+  },
+  {
+   "candidate_id": "adec179d-07c2-4f37-a6fa-112797607a78",
+   "candidate_name": "Samuel Brooks",
+   "label": "Request renewal of Basic Life Support (BLS) (expires Nov 30, 2026).",
+   "priority": 75
+  }
+ ],
+ "recent_activity": [
+  {
+   "id": "9708d6f2-ab6c-48af-8234-b13135162a9d",
+   "actor_label": "System (document processor)",
+   "entity_type": "document",
+   "entity_id": "c14345ae-75fe-45ea-853c-0499d26418f8",
+   "candidate_id": "37133a36-d73f-40bf-897a-8a53acbef71e",
+   "candidate_name": "Hannah Wright",
+   "action": "document.processed",
+   "summary": "Extracted 5 claim(s) from 'hannah_wright_resume.txt' using the mock provider",
+   "reason": null,
+   "details": {
+    "provider": "mock",
+    "claims": {
+     "experience": 1,
+     "qualification": 1,
+     "skill": 2,
+     "credential": 1
+    },
+    "dropped": 0,
+    "flagged": 0,
+    "inserted": 5,
+    "replaced": 0,
+    "kept_reviewed": 0,
+    "redactions": {
+     "email": 1,
+     "phone": 1
+    },
+    "duration_ms": 16
+   },
+   "created_at": "2026-10-23T16:05:04.702492"
+  },
+  {
+   "id": "ee8a402a-a1c9-481d-991c-ac80ae2ddab1",
+   "actor_label": "Riley Recruiter (recruiter)",
+   "entity_type": "document",
+   "entity_id": "c14345ae-75fe-45ea-853c-0499d26418f8",
+   "candidate_id": "37133a36-d73f-40bf-897a-8a53acbef71e",
+   "candidate_name": "Hannah Wright",
+   "action": "document.uploaded",
+   "summary": "Uploaded resume document 'hannah_wright_resume.txt'",
+   "reason": null,
+   "details": {
+    "size_bytes": 442,
+    "content_type": "text/plain"
+   },
+   "created_at": "2026-10-23T16:05:04.679499"
+  },
+  {
+   "id": "445b0114-3369-42bf-957d-ca781b848c71",
+   "actor_label": "Riley Recruiter (recruiter)",
+   "entity_type": "candidate",
+   "entity_id": "37133a36-d73f-40bf-897a-8a53acbef71e",
+   "candidate_id": "37133a36-d73f-40bf-897a-8a53acbef71e",
+   "candidate_name": "Hannah Wright",
+   "action": "candidate.created",
+   "summary": "Created candidate Hannah Wright",
+   "reason": null,
+   "details": {},
+   "created_at": "2026-10-23T16:05:04.667728"
+  },
+  {
+   "id": "c3c22b2e-f4a7-41f0-8ec9-5ed8501f343c",
+   "actor_label": "System (document processor)",
+   "entity_type": "document",
+   "entity_id": "f9878e08-8973-4ad2-ab93-79016d56b284",
+   "candidate_id": "27b03821-c7ca-4c17-ae24-01e4d872562c",
+   "candidate_name": "Noah Kim",
+   "action": "document.processing_failed",
+   "summary": "Processing failed for 'scanned_cna_certificate.pdf': No readable text was found. The document may be a scanned image; OCR is not supported in this release. Upload a text-based PDF or enter the details manually.",
+   "reason": null,
+   "details": {
+    "error_code": "no_text_layer",
+    "attempts": 1
+   },
+   "created_at": "2026-10-23T16:05:04.660056"
+  },
+  {
+   "id": "0be24c15-c813-449b-b086-403ee5665d39",
+   "actor_label": "Riley Recruiter (recruiter)",
+   "entity_type": "document",
+   "entity_id": "f9878e08-8973-4ad2-ab93-79016d56b284",
+   "candidate_id": "27b03821-c7ca-4c17-ae24-01e4d872562c",
+   "candidate_name": "Noah Kim",
+   "action": "document.uploaded",
+   "summary": "Uploaded credential document 'scanned_cna_certificate.pdf'",
+   "reason": null,
+   "details": {
+    "size_bytes": 647,
+    "content_type": "application/pdf"
+   },
+   "created_at": "2026-10-23T16:05:04.631288"
+  },
+  {
+   "id": "ff7fd166-b963-45c0-824f-589beeb71dee",
+   "actor_label": "Riley Recruiter (recruiter)",
+   "entity_type": "candidate",
+   "entity_id": "27b03821-c7ca-4c17-ae24-01e4d872562c",
+   "candidate_id": "27b03821-c7ca-4c17-ae24-01e4d872562c",
+   "candidate_name": "Noah Kim",
+   "action": "candidate.created",
+   "summary": "Created candidate Noah Kim",
+   "reason": null,
+   "details": {},
+   "created_at": "2026-10-23T16:05:04.615895"
+  },
+  {
+   "id": "029b74bf-ac5f-49be-a2ca-3e642ed09fc0",
+   "actor_label": "System (document processor)",
+   "entity_type": "document",
+   "entity_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+   "candidate_id": "400a161b-e07d-48df-abfe-8a51736b63bc",
+   "candidate_name": "Jordan Ellis",
+   "action": "document.processed",
+   "summary": "Extracted 6 claim(s) from 'jordan_ellis_resume.txt' using the mock provider \u2014 instruction-like text detected, review carefully",
+   "reason": null,
+   "details": {
+    "provider": "mock",
+    "claims": {
+     "experience": 1,
+     "qualification": 1,
+     "skill": 2,
+     "credential": 2
+    },
+    "dropped": 0,
+    "flagged": 6,
+    "inserted": 6,
+    "replaced": 0,
+    "kept_reviewed": 0,
+    "redactions": {
+     "email": 1,
+     "phone": 1
+    },
+    "duration_ms": 18
+   },
+   "created_at": "2026-10-23T16:05:04.608312"
+  },
+  {
+   "id": "80a5ca30-bb23-4294-a500-12c737595706",
+   "actor_label": "Riley Recruiter (recruiter)",
+   "entity_type": "document",
+   "entity_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+   "candidate_id": "400a161b-e07d-48df-abfe-8a51736b63bc",
+   "candidate_name": "Jordan Ellis",
+   "action": "document.uploaded",
+   "summary": "Uploaded resume document 'jordan_ellis_resume.txt'",
+   "reason": null,
+   "details": {
+    "size_bytes": 600,
+    "content_type": "text/plain"
+   },
+   "created_at": "2026-10-23T16:05:04.583358"
+  },
+  {
+   "id": "380f0506-6a64-48a2-9193-41a74105fdeb",
+   "actor_label": "Riley Recruiter (recruiter)",
+   "entity_type": "candidate",
+   "entity_id": "400a161b-e07d-48df-abfe-8a51736b63bc",
+   "candidate_id": "400a161b-e07d-48df-abfe-8a51736b63bc",
+   "candidate_name": "Jordan Ellis",
+   "action": "candidate.created",
+   "summary": "Created candidate Jordan Ellis",
+   "reason": null,
+   "details": {},
+   "created_at": "2026-10-23T16:05:04.570618"
+  },
+  {
+   "id": "39006a36-4198-4469-8e1d-18ca27ec2454",
+   "actor_label": "Casey Reviewer (reviewer)",
+   "entity_type": "onboarding_task",
+   "entity_id": "b7a7ab9f-5613-4a98-8564-ff8de04564e9",
+   "candidate_id": "0f8fbae0-971f-4a6b-93bf-bf02286a5d2d",
+   "candidate_name": "Elena Petrova",
+   "action": "task.updated",
+   "summary": "Updated onboarding task 'Confirm required qualifications': todo \u2192 done",
+   "reason": null,
+   "details": {
+    "status": {
+     "from": "todo",
+     "to": "done"
+    }
+   },
+   "created_at": "2026-10-23T16:05:04.556434"
+  },
+  {
+   "id": "50f6c91e-406f-4262-aab0-6fac841be194",
+   "actor_label": "Casey Reviewer (reviewer)",
+   "entity_type": "onboarding_task",
+   "entity_id": "8be4a4b8-0b68-4b13-a2c2-67695a15381d",
+   "candidate_id": "0f8fbae0-971f-4a6b-93bf-bf02286a5d2d",
+   "candidate_name": "Elena Petrova",
+   "action": "task.updated",
+   "summary": "Updated onboarding task 'Review candidate documents': todo \u2192 done",
+   "reason": null,
+   "details": {
+    "status": {
+     "from": "todo",
+     "to": "done"
+    }
+   },
+   "created_at": "2026-10-23T16:05:04.538110"
+  },
+  {
+   "id": "d5eee2fc-f599-4313-b32d-ef4ab7bccdde",
+   "actor_label": "Riley Recruiter (recruiter)",
+   "entity_type": "candidate",
+   "entity_id": "0f8fbae0-971f-4a6b-93bf-bf02286a5d2d",
+   "candidate_id": "0f8fbae0-971f-4a6b-93bf-bf02286a5d2d",
+   "candidate_name": "Elena Petrova",
+   "action": "candidate.status_changed",
+   "summary": "Moved Elena Petrova from offer to onboarding",
+   "reason": null,
+   "details": {
+    "from": "offer",
+    "to": "onboarding",
+    "override": false,
+    "tasks_created": 7,
+    "eligibility": "meets_all_required"
+   },
+   "created_at": "2026-10-23T16:05:04.503914"
+  }
+ ]
+}

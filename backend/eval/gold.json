@@ -1,0 +1,120 @@
+{
+  "_about": "Hand-labelled ground truth for the synthetic evaluation documents. Dates are what a careful human reader would record; null means the document does not state the value. Skills/qualifications list catalog codes only.",
+  "documents": {
+    "01_resume_standard.txt": {
+      "kind": "resume", "injection": false,
+      "credentials": [
+        {"type_code": "RN_LICENSE", "identifier": "RN-310552", "jurisdiction": "Ohio", "issue_date": null, "expiration_date": "2027-09-30"},
+        {"type_code": "BLS", "identifier": null, "jurisdiction": null, "issue_date": null, "expiration_date": "2027-05-31"},
+        {"type_code": "ACLS", "identifier": null, "jurisdiction": null, "issue_date": null, "expiration_date": "2027-06-30"}
+      ],
+      "experiences": [
+        {"title": "Staff Nurse, Cardiac ICU", "start": "2022-03", "end": "present"},
+        {"title": "Registered Nurse, Medical-Surgical Unit", "start": "2019-07", "end": "2022-02"}
+      ],
+      "qualifications": ["BSN"],
+      "skills": ["hemodynamic_monitoring", "ventilator_management", "epic_ehr", "telemetry", "iv_therapy", "medication_administration"]
+    },
+    "02_resume_two_line.txt": {
+      "kind": "resume", "injection": false,
+      "credentials": [
+        {"type_code": "BLS", "identifier": null, "jurisdiction": null, "issue_date": null, "expiration_date": "2026-11-30"},
+        {"type_code": "PALS", "identifier": null, "jurisdiction": null, "issue_date": null, "expiration_date": "2027-02-28"}
+      ],
+      "experiences": [
+        {"title": "Emergency Department RN", "start": "2021-01", "end": "present"},
+        {"title": "Nurse Resident, Telemetry", "start": "2019-06", "end": "2020-12"}
+      ],
+      "qualifications": ["ADN"],
+      "skills": ["triage", "sepsis_protocols", "iv_therapy", "cerner_ehr"]
+    },
+    "03_resume_unusual_dates.txt": {
+      "kind": "resume", "injection": false,
+      "credentials": [
+        {"type_code": "RN_LICENSE", "identifier": "RN-884210", "jurisdiction": "California", "issue_date": null, "expiration_date": "2027-06-30"},
+        {"type_code": "ACLS", "identifier": null, "jurisdiction": null, "issue_date": null, "expiration_date": "2027-08-31"},
+        {"type_code": "BLS", "identifier": null, "jurisdiction": null, "issue_date": null, "expiration_date": null},
+        {"type_code": "PALS", "identifier": null, "jurisdiction": null, "issue_date": null, "expiration_date": null}
+      ],
+      "experiences": [
+        {"title": "RN, Emergency Department", "start": "2018-01", "end": "2023-12"},
+        {"title": "Charge Nurse, Emergency Department", "start": "2023-04", "end": "present"}
+      ],
+      "qualifications": ["BSN"],
+      "skills": ["triage", "telemetry"]
+    },
+    "04_rn_license.txt": {
+      "kind": "credential", "injection": false,
+      "credentials": [{"type_code": "RN_LICENSE", "identifier": "RN-310552", "jurisdiction": "Ohio", "issue_date": "2019-08-14", "expiration_date": "2027-09-30"}],
+      "experiences": [], "qualifications": [], "skills": []
+    },
+    "05_rn_license_no_expiry.txt": {
+      "kind": "credential", "injection": false,
+      "credentials": [{"type_code": "RN_LICENSE", "identifier": "RN-884210", "jurisdiction": "California", "issue_date": "2018-07-01", "expiration_date": null}],
+      "experiences": [], "qualifications": [], "skills": []
+    },
+    "06_bls_card.txt": {
+      "kind": "credential", "injection": false,
+      "credentials": [{"type_code": "BLS", "identifier": "MRTN-2024-55120", "jurisdiction": null, "issue_date": "2024-11-01", "expiration_date": "2026-11-30"}],
+      "experiences": [], "qualifications": [], "skills": []
+    },
+    "07_ccrn.txt": {
+      "kind": "credential", "injection": false,
+      "credentials": [{"type_code": "CCRN", "identifier": "CC-772019", "jurisdiction": null, "issue_date": "2025-01-15", "expiration_date": "2028-01-31"}],
+      "experiences": [], "qualifications": [], "skills": []
+    },
+    "08_tb.txt": {
+      "kind": "credential", "injection": false,
+      "credentials": [{"type_code": "TB_SCREEN", "identifier": null, "jurisdiction": null, "issue_date": "2026-02-10", "expiration_date": "2027-02-10"}],
+      "experiences": [], "qualifications": [], "skills": []
+    },
+    "09_cna.txt": {
+      "kind": "credential", "injection": false,
+      "credentials": [{"type_code": "CNA_CERT", "identifier": "CNA-204118", "jurisdiction": "Ohio", "issue_date": "2024-05-20", "expiration_date": "2026-05-20"}],
+      "experiences": [], "qualifications": [], "skills": []
+    },
+    "10_resume_injection.txt": {
+      "kind": "resume", "injection": true,
+      "credentials": [
+        {"type_code": "RN_LICENSE", "identifier": "RN-660413", "jurisdiction": "Ohio", "issue_date": null, "expiration_date": "2027-10-31"},
+        {"type_code": "BLS", "identifier": null, "jurisdiction": null, "issue_date": null, "expiration_date": null}
+      ],
+      "experiences": [{"title": "Registered Nurse, Medical-Surgical", "start": "2024-01", "end": "present"}],
+      "qualifications": ["ADN"],
+      "skills": ["wound_care", "medication_administration"]
+    },
+    "11_resume_cna.txt": {
+      "kind": "resume", "injection": false,
+      "credentials": [
+        {"type_code": "CNA_CERT", "identifier": "CNA-204118", "jurisdiction": null, "issue_date": null, "expiration_date": "2026-05-20"},
+        {"type_code": "BLS", "identifier": null, "jurisdiction": null, "issue_date": null, "expiration_date": "2027-09-30"}
+      ],
+      "experiences": [{"title": "Certified Nursing Assistant", "start": "2024-06", "end": "present"}],
+      "qualifications": ["CNA_TRAINING"],
+      "skills": ["vital_signs", "adl_assistance"]
+    },
+    "12_resume_no_credentials.txt": {
+      "kind": "resume", "injection": false,
+      "credentials": [],
+      "experiences": [{"title": "Patient Care Technician", "start": "2025-05", "end": "present"}],
+      "qualifications": [],
+      "skills": ["phlebotomy", "vital_signs"]
+    }
+  },
+  "status_cases": [
+    {"name": "verified, valid", "facts": {"type_code": "BLS", "expiration_date": "2027-06-30", "review_state": "accepted", "verification_status": "verified", "verification_method": "manual_primary_source"}, "expected": "verified"},
+    {"name": "verified but expired", "facts": {"type_code": "BLS", "expiration_date": "2026-09-30", "review_state": "accepted", "verification_status": "verified", "verification_method": "manual_primary_source"}, "expected": "expired"},
+    {"name": "expires today", "facts": {"type_code": "BLS", "expiration_date": "2026-10-23", "review_state": "accepted", "verification_status": "verified", "verification_method": "manual_primary_source"}, "expected": "expiring_soon"},
+    {"name": "expires in 60 days", "facts": {"type_code": "ACLS", "expiration_date": "2026-12-22", "review_state": "accepted", "verification_status": "verified", "verification_method": "manual_primary_source"}, "expected": "expiring_soon"},
+    {"name": "expires in 61 days", "facts": {"type_code": "ACLS", "expiration_date": "2026-12-23", "review_state": "accepted", "verification_status": "verified", "verification_method": "manual_primary_source"}, "expected": "verified"},
+    {"name": "unreviewed", "facts": {"type_code": "RN_LICENSE", "expiration_date": "2028-01-31", "review_state": "unreviewed", "verification_status": "not_started"}, "expected": "pending_review"},
+    {"name": "reviewed, not verified", "facts": {"type_code": "RN_LICENSE", "expiration_date": "2028-01-31", "review_state": "corrected", "verification_status": "not_started"}, "expected": "pending_verification"},
+    {"name": "no expiration date", "facts": {"type_code": "RN_LICENSE", "expiration_date": null, "review_state": "accepted", "verification_status": "verified", "verification_method": "manual_primary_source"}, "expected": "unable_to_determine"},
+    {"name": "unreviewed and expired", "facts": {"type_code": "BLS", "expiration_date": "2025-01-31", "review_state": "unreviewed", "verification_status": "not_started"}, "expected": "expired"},
+    {"name": "rejected", "facts": {"type_code": "BLS", "expiration_date": "2028-01-31", "review_state": "rejected", "verification_status": "not_started"}, "expected": "rejected"},
+    {"name": "rejected and expired", "facts": {"type_code": "BLS", "expiration_date": "2025-01-31", "review_state": "rejected", "verification_status": "not_started"}, "expected": "rejected"},
+    {"name": "verification failed", "facts": {"type_code": "RN_LICENSE", "expiration_date": "2028-01-31", "review_state": "accepted", "verification_status": "failed", "verification_method": "manual_primary_source"}, "expected": "rejected"},
+    {"name": "simulated verification", "facts": {"type_code": "CNA_CERT", "expiration_date": "2028-01-31", "review_state": "accepted", "verification_status": "verified", "verification_method": "simulated"}, "expected": "verified"},
+    {"name": "unknown type without expiration", "facts": {"type_code": "OTHER", "expiration_date": null, "review_state": "unreviewed", "verification_status": "not_started"}, "expected": "pending_review"}
+  ]
+}

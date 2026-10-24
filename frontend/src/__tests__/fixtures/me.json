@@ -1,0 +1,19 @@
+{
+ "id": "2680dc09-859f-4ca5-9ec3-1e40fd213469",
+ "email": "reviewer@northwind.example",
+ "full_name": "Casey Reviewer",
+ "role": "reviewer",
+ "organization": {
+  "id": "58e1eed6-6b46-4a5f-8406-c4fd84564888",
+  "name": "Northwind Health (demo)"
+ },
+ "permissions": [
+  "add_notes",
+  "final_review",
+  "manage_onboarding",
+  "review_claims",
+  "upload_documents",
+  "verify_credentials",
+  "view"
+ ]
+}

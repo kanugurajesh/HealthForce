@@ -1,0 +1,60 @@
+{
+  "metrics": {
+    "provider": "mock",
+    "documents": 12,
+    "document_failures": 0,
+    "runtime_seconds": 0.01,
+    "credential_detection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "spurious": 0,
+      "missed": 0,
+      "duplicates": 0
+    },
+    "credential_fields": {
+      "field_accuracy_when_stated": 0.944,
+      "stated_values_missed": 2,
+      "stated_values_wrong": 0,
+      "missing_field_detection": 1.0,
+      "values_inferred_when_absent": 0,
+      "incorrectly_inferred_rate": 0.0
+    },
+    "experience": {
+      "recall": 0.889,
+      "precision": 0.889,
+      "date_accuracy": 1.0
+    },
+    "qualifications": {
+      "precision": 0.833,
+      "recall": 1.0
+    },
+    "skills": {
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "evidence": {
+      "claims": 53,
+      "evidence_located_rate": 1.0,
+      "unsupported_claims_discarded": 0
+    },
+    "injection_screen": {
+      "true_positive": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "true_negative": 11
+    },
+    "credential_status_rules": {
+      "correct": 14,
+      "total": 14,
+      "accuracy": 1.0
+    }
+  },
+  "errors": [
+    "03_resume_unusual_dates.txt: RN_LICENSE.expiration_date missing (gold 2027-06-30)",
+    "03_resume_unusual_dates.txt: ACLS.expiration_date missing (gold 2027-08-31)",
+    "03_resume_unusual_dates.txt: missed experience 'RN, Emergency Department'",
+    "03_resume_unusual_dates.txt: spurious experience ': RN, Emergency Department, Bayside General Hospital'",
+    "12_resume_no_credentials.txt: spurious qual BSN"
+  ],
+  "status_rule_failures": []
+}

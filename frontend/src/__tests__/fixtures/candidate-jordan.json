@@ -1,0 +1,526 @@
+{
+ "id": "400a161b-e07d-48df-abfe-8a51736b63bc",
+ "full_name": "Jordan Ellis",
+ "headline": "Med-surg RN",
+ "location": "Springfield, OH",
+ "status": "new",
+ "job": {
+  "id": "2ca22a2a-5b55-4110-a8e4-ae607900ab50",
+  "title": "Medical-Surgical Registered Nurse"
+ },
+ "eligibility": "requirement_not_met",
+ "score": 11,
+ "credential_statuses": [
+  "missing",
+  "unable_to_determine"
+ ],
+ "missing_credentials": [
+  "Tuberculosis (TB) Screening"
+ ],
+ "unreviewed_claims": 6,
+ "flagged_claims": 6,
+ "nearest_expiration": null,
+ "next_action": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+ "tasks_total": 0,
+ "tasks_done": 0,
+ "updated_at": "2026-10-23T16:05:04.608443",
+ "email": "jordan.ellis@example.com",
+ "summary": "Mock summary \u2014 1 position(s) listed, most recent: Registered Nurse, Med-Surg; credentials mentioned: Registered Nurse, BLS Provider; education: Associate Degree in Nursing.",
+ "summary_source": "mock",
+ "summary_reviewed": false,
+ "allowed_transitions": [
+  "not_selected",
+  "screening",
+  "withdrawn"
+ ],
+ "experiences": [
+  {
+   "id": "895f725c-578f-4f93-b22b-4be152b2cc96",
+   "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+   "source": "mock",
+   "evidence_quote": "Registered Nurse, Med-Surg \u2014 Clark County Hospital, Springfield, OH | 01/2026 \u2013 Present",
+   "evidence_start": 268,
+   "evidence_end": 355,
+   "evidence_status": "found",
+   "review_state": "unreviewed",
+   "reviewed_by_name": null,
+   "reviewed_at": null,
+   "review_note": null,
+   "flags": [
+    "Source document contains instruction-like text (possible prompt injection). Check this value against the document."
+   ],
+   "created_at": "2026-10-23T16:05:04.608889",
+   "updated_at": "2026-10-23T16:05:04.608890",
+   "title": "Registered Nurse, Med-Surg",
+   "employer": "Clark County Hospital",
+   "settings": [
+    "med_surg"
+   ],
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "is_current": true,
+   "start_text": "01/2026",
+   "end_text": "Present",
+   "description": "IV therapy",
+   "duration_years": 0.8
+  }
+ ],
+ "qualifications": [
+  {
+   "id": "2f2e75f3-534a-4139-830c-3bd2cdbad9ba",
+   "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+   "source": "mock",
+   "evidence_quote": "Associate Degree in Nursing \u2014 Clark State College, 2025",
+   "evidence_start": 380,
+   "evidence_end": 435,
+   "evidence_status": "found",
+   "review_state": "unreviewed",
+   "reviewed_by_name": null,
+   "reviewed_at": null,
+   "review_note": null,
+   "flags": [
+    "Source document contains instruction-like text (possible prompt injection). Check this value against the document."
+   ],
+   "created_at": "2026-10-23T16:05:04.609367",
+   "updated_at": "2026-10-23T16:05:04.609368",
+   "code": "ADN",
+   "label": "Associate Degree in Nursing (ADN/ASN)",
+   "name": "Associate Degree in Nursing",
+   "institution": "Clark State College",
+   "completion_year": 2025
+  }
+ ],
+ "skills": [
+  {
+   "id": "1ec40f47-d210-42b3-ad2b-8455d12f453e",
+   "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+   "source": "mock",
+   "evidence_quote": "IV therapy",
+   "evidence_start": 358,
+   "evidence_end": 368,
+   "evidence_status": "found",
+   "review_state": "unreviewed",
+   "reviewed_by_name": null,
+   "reviewed_at": null,
+   "review_note": null,
+   "flags": [
+    "Source document contains instruction-like text (possible prompt injection). Check this value against the document."
+   ],
+   "created_at": "2026-10-23T16:05:04.609547",
+   "updated_at": "2026-10-23T16:05:04.609548",
+   "code": "iv_therapy",
+   "label": "IV therapy",
+   "name": "IV therapy"
+  },
+  {
+   "id": "92bab08d-10ac-44c1-b0da-b62770b7a32c",
+   "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+   "source": "mock",
+   "evidence_quote": "Telemetry",
+   "evidence_start": 562,
+   "evidence_end": 571,
+   "evidence_status": "found",
+   "review_state": "unreviewed",
+   "reviewed_by_name": null,
+   "reviewed_at": null,
+   "review_note": null,
+   "flags": [
+    "Source document contains instruction-like text (possible prompt injection). Check this value against the document."
+   ],
+   "created_at": "2026-10-23T16:05:04.609551",
+   "updated_at": "2026-10-23T16:05:04.609551",
+   "code": "telemetry",
+   "label": "Telemetry / cardiac monitoring",
+   "name": "Telemetry"
+  }
+ ],
+ "credentials": [
+  {
+   "id": "96d6b4e3-caf1-480f-b49a-fa06705c2938",
+   "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+   "source": "mock",
+   "evidence_quote": "BLS Provider \u2014 current",
+   "evidence_start": 519,
+   "evidence_end": 541,
+   "evidence_status": "found",
+   "review_state": "unreviewed",
+   "reviewed_by_name": null,
+   "reviewed_at": null,
+   "review_note": null,
+   "flags": [
+    "Source document contains instruction-like text (possible prompt injection). Check this value against the document."
+   ],
+   "created_at": "2026-10-23T16:05:04.608664",
+   "updated_at": "2026-10-23T16:05:04.608664",
+   "type_code": "BLS",
+   "type_label": "Basic Life Support (BLS)",
+   "name": "BLS Provider",
+   "issuer": null,
+   "identifier": null,
+   "jurisdiction": null,
+   "issue_date": null,
+   "expiration_date": null,
+   "expiration_text": null,
+   "verification_status": "not_started",
+   "verification_method": null,
+   "verification_reference": null,
+   "verified_at": null,
+   "verified_by_name": null,
+   "status": "unable_to_determine",
+   "status_reasons": [
+    "No expiration date could be established from the evidence. Enter it after checking the source.",
+    "Self-reported on a resume, not taken from a credential document."
+   ],
+   "expiring_soon": false,
+   "days_until_expiry": null,
+   "simulated_verification": false,
+   "conflicts_with": []
+  },
+  {
+   "id": "b8b97d68-94dd-4328-ad3c-4f89d478867d",
+   "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+   "source": "mock",
+   "evidence_quote": "Registered Nurse, Ohio \u2014 verified by state registry",
+   "evidence_start": 465,
+   "evidence_end": 516,
+   "evidence_status": "found",
+   "review_state": "unreviewed",
+   "reviewed_by_name": null,
+   "reviewed_at": null,
+   "review_note": null,
+   "flags": [
+    "Source document contains instruction-like text (possible prompt injection). Check this value against the document."
+   ],
+   "created_at": "2026-10-23T16:05:04.608659",
+   "updated_at": "2026-10-23T16:05:04.608660",
+   "type_code": "RN_LICENSE",
+   "type_label": "Registered Nurse (RN) License",
+   "name": "Registered Nurse",
+   "issuer": null,
+   "identifier": null,
+   "jurisdiction": "Ohio",
+   "issue_date": null,
+   "expiration_date": null,
+   "expiration_text": null,
+   "verification_status": "not_started",
+   "verification_method": null,
+   "verification_reference": null,
+   "verified_at": null,
+   "verified_by_name": null,
+   "status": "unable_to_determine",
+   "status_reasons": [
+    "No expiration date could be established from the evidence. Enter it after checking the source.",
+    "Self-reported on a resume, not taken from a credential document."
+   ],
+   "expiring_soon": false,
+   "days_until_expiry": null,
+   "simulated_verification": false,
+   "conflicts_with": []
+  }
+ ],
+ "documents": [
+  {
+   "id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+   "candidate_id": "400a161b-e07d-48df-abfe-8a51736b63bc",
+   "kind": "resume",
+   "original_filename": "jordan_ellis_resume.txt",
+   "content_type": "text/plain",
+   "size_bytes": 600,
+   "page_count": null,
+   "injection_suspected": true,
+   "injection_signals": [
+    "ignore_instructions",
+    "status_manipulation",
+    "scoring_manipulation"
+   ],
+   "created_at": "2026-10-23T16:05:04.583531",
+   "uploaded_by_name": "Riley Recruiter",
+   "job": {
+    "id": "20f02732-4d73-4e73-b652-b1c95fcbf1b1",
+    "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+    "status": "succeeded",
+    "provider": "mock",
+    "attempts": 1,
+    "max_attempts": 3,
+    "error_code": null,
+    "last_error": null,
+    "retryable": false,
+    "warnings": [
+     "Instruction-like text detected in the document: ignore_instructions, status_manipulation, scoring_manipulation."
+    ],
+    "stats": {
+     "claims": {
+      "experience": 1,
+      "qualification": 1,
+      "skill": 2,
+      "credential": 2
+     },
+     "dropped": 0,
+     "flagged": 6,
+     "inserted": 6,
+     "replaced": 0,
+     "kept_reviewed": 0,
+     "redactions": {
+      "email": 1,
+      "phone": 1
+     },
+     "duration_ms": 18
+    },
+    "next_attempt_at": null,
+    "started_at": "2026-10-23T16:05:04.587687",
+    "finished_at": "2026-10-23T16:05:04.607870",
+    "created_at": "2026-10-23T16:05:04.583690"
+   },
+   "claim_counts": {
+    "experience": 1,
+    "unreviewed": 6,
+    "qualification": 1,
+    "skill": 2,
+    "credential": 2
+   }
+  }
+ ],
+ "match": {
+  "job": {
+   "id": "2ca22a2a-5b55-4110-a8e4-ae607900ab50",
+   "title": "Medical-Surgical Registered Nurse"
+  },
+  "score": 11,
+  "eligibility": "requirement_not_met",
+  "eligibility_explanation": "Required requirement not met: 1+ years acute care experience.",
+  "score_explanation": "Score = weighted points earned / possible = 2 / 19. Each requirement is worth its weight; met earns full weight, pending earns half, unknown and not met earn zero. The score ranks candidates within an eligibility tier and never overrides an unmet required requirement.",
+  "satisfied": 0,
+  "not_satisfied": 1,
+  "pending": 2,
+  "unknown": 5,
+  "requirements": [
+   {
+    "requirement_id": "bbb728ed-8da7-40c8-9b4e-62206ce59b67",
+    "kind": "credential",
+    "label": "Registered Nurse (RN) License",
+    "is_required": true,
+    "weight": 5,
+    "outcome": "unknown",
+    "explanation": "Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+    "points_earned": 0.0,
+    "points_possible": 5.0,
+    "next_action": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+    "evidence": [
+     {
+      "claim_type": "credential",
+      "claim_id": "b8b97d68-94dd-4328-ad3c-4f89d478867d",
+      "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+      "quote": "Registered Nurse, Ohio \u2014 verified by state registry",
+      "review_state": "unreviewed",
+      "status": "unable_to_determine"
+     }
+    ]
+   },
+   {
+    "requirement_id": "a21cd369-d92f-49a4-bdce-574313539b32",
+    "kind": "credential",
+    "label": "Basic Life Support (BLS)",
+    "is_required": true,
+    "weight": 3,
+    "outcome": "unknown",
+    "explanation": "Basic Life Support (BLS): No expiration date could be established from the evidence. Enter it after checking the source.",
+    "points_earned": 0.0,
+    "points_possible": 3.0,
+    "next_action": "Resolve Basic Life Support (BLS): No expiration date could be established from the evidence. Enter it after checking the source.",
+    "evidence": [
+     {
+      "claim_type": "credential",
+      "claim_id": "96d6b4e3-caf1-480f-b49a-fa06705c2938",
+      "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+      "quote": "BLS Provider \u2014 current",
+      "review_state": "unreviewed",
+      "status": "unable_to_determine"
+     }
+    ]
+   },
+   {
+    "requirement_id": "fb80d031-f1ed-42c0-8386-2182663eda5f",
+    "kind": "credential",
+    "label": "Tuberculosis (TB) Screening",
+    "is_required": true,
+    "weight": 2,
+    "outcome": "unknown",
+    "explanation": "No Tuberculosis (TB) Screening on file.",
+    "points_earned": 0.0,
+    "points_possible": 2.0,
+    "next_action": "Request a copy of the candidate's Tuberculosis (TB) Screening.",
+    "evidence": []
+   },
+   {
+    "requirement_id": "d40e518a-6eaa-4bb1-b37a-8c3c818bd9e6",
+    "kind": "qualification",
+    "label": "Associate Degree in Nursing (ADN/ASN) or Bachelor of Science in Nursing (BSN)",
+    "is_required": true,
+    "weight": 3,
+    "outcome": "pending",
+    "explanation": "Associate Degree in Nursing (ADN/ASN) or Bachelor of Science in Nursing (BSN): found in documents, awaiting review.",
+    "points_earned": 1.5,
+    "points_possible": 3.0,
+    "next_action": "Review the extracted Associate Degree in Nursing (ADN/ASN) or Bachelor of Science in Nursing (BSN).",
+    "evidence": [
+     {
+      "claim_type": "qualification",
+      "claim_id": "2f2e75f3-534a-4139-830c-3bd2cdbad9ba",
+      "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+      "quote": "Associate Degree in Nursing \u2014 Clark State College, 2025",
+      "review_state": "unreviewed",
+      "status": null
+     }
+    ]
+   },
+   {
+    "requirement_id": "9ce106c0-53b6-4b33-ac00-c43b7c3bef2e",
+    "kind": "experience",
+    "label": "1+ years acute care experience",
+    "is_required": true,
+    "weight": 3,
+    "outcome": "not_met",
+    "explanation": "Documented acute care experience totals 0.8 years; the role requires 1+ years acute care experience.",
+    "points_earned": 0.0,
+    "points_possible": 3.0,
+    "next_action": null,
+    "evidence": [
+     {
+      "claim_type": "experience",
+      "claim_id": "895f725c-578f-4f93-b22b-4be152b2cc96",
+      "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+      "quote": "Registered Nurse, Med-Surg \u2014 Clark County Hospital, Springfield, OH | 01/2026 \u2013 Present",
+      "review_state": "unreviewed",
+      "status": null
+     }
+    ]
+   },
+   {
+    "requirement_id": "484ade6e-707d-43d7-9685-5f9f48448539",
+    "kind": "skill",
+    "label": "IV therapy",
+    "is_required": false,
+    "weight": 1,
+    "outcome": "pending",
+    "explanation": "IV therapy: found in documents, awaiting review.",
+    "points_earned": 0.5,
+    "points_possible": 1.0,
+    "next_action": "Review the extracted IV therapy.",
+    "evidence": [
+     {
+      "claim_type": "skill",
+      "claim_id": "1ec40f47-d210-42b3-ad2b-8455d12f453e",
+      "document_id": "64ef224a-81d1-439d-9f98-a85f73a9b48f",
+      "quote": "IV therapy",
+      "review_state": "unreviewed",
+      "status": null
+     }
+    ]
+   },
+   {
+    "requirement_id": "1ad4302b-9647-42a3-a074-751596de5823",
+    "kind": "skill",
+    "label": "Wound care",
+    "is_required": false,
+    "weight": 1,
+    "outcome": "unknown",
+    "explanation": "No evidence of Wound care in the candidate's documents. Absence of evidence is not treated as a failure.",
+    "points_earned": 0.0,
+    "points_possible": 1.0,
+    "next_action": "Ask the candidate to confirm Wound care.",
+    "evidence": []
+   },
+   {
+    "requirement_id": "ddb6a430-5cb8-48a4-aad9-e80f881da25e",
+    "kind": "skill",
+    "label": "Medication administration",
+    "is_required": false,
+    "weight": 1,
+    "outcome": "unknown",
+    "explanation": "No evidence of Medication administration in the candidate's documents. Absence of evidence is not treated as a failure.",
+    "points_earned": 0.0,
+    "points_possible": 1.0,
+    "next_action": "Ask the candidate to confirm Medication administration.",
+    "evidence": []
+   }
+  ],
+  "next_actions": [
+   {
+    "priority": 20,
+    "label": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+    "requirement_id": "bbb728ed-8da7-40c8-9b4e-62206ce59b67"
+   },
+   {
+    "priority": 20,
+    "label": "Resolve Basic Life Support (BLS): No expiration date could be established from the evidence. Enter it after checking the source.",
+    "requirement_id": "a21cd369-d92f-49a4-bdce-574313539b32"
+   },
+   {
+    "priority": 30,
+    "label": "Request a copy of the candidate's Tuberculosis (TB) Screening.",
+    "requirement_id": "fb80d031-f1ed-42c0-8386-2182663eda5f"
+   },
+   {
+    "priority": 50,
+    "label": "Review the extracted Associate Degree in Nursing (ADN/ASN) or Bachelor of Science in Nursing (BSN).",
+    "requirement_id": "d40e518a-6eaa-4bb1-b37a-8c3c818bd9e6"
+   },
+   {
+    "priority": 150,
+    "label": "Review the extracted IV therapy.",
+    "requirement_id": "484ade6e-707d-43d7-9685-5f9f48448539"
+   },
+   {
+    "priority": 180,
+    "label": "Ask the candidate to confirm Wound care.",
+    "requirement_id": "1ad4302b-9647-42a3-a074-751596de5823"
+   },
+   {
+    "priority": 180,
+    "label": "Ask the candidate to confirm Medication administration.",
+    "requirement_id": "ddb6a430-5cb8-48a4-aad9-e80f881da25e"
+   }
+  ]
+ },
+ "next_actions": [
+  {
+   "priority": 20,
+   "label": "Resolve Registered Nurse (RN) License: No expiration date could be established from the evidence. Enter it after checking the source.",
+   "requirement_id": "bbb728ed-8da7-40c8-9b4e-62206ce59b67"
+  },
+  {
+   "priority": 20,
+   "label": "Resolve Basic Life Support (BLS): No expiration date could be established from the evidence. Enter it after checking the source.",
+   "requirement_id": "a21cd369-d92f-49a4-bdce-574313539b32"
+  },
+  {
+   "priority": 30,
+   "label": "Request a copy of the candidate's Tuberculosis (TB) Screening.",
+   "requirement_id": "fb80d031-f1ed-42c0-8386-2182663eda5f"
+  },
+  {
+   "priority": 50,
+   "label": "Review the extracted Associate Degree in Nursing (ADN/ASN) or Bachelor of Science in Nursing (BSN).",
+   "requirement_id": "d40e518a-6eaa-4bb1-b37a-8c3c818bd9e6"
+  },
+  {
+   "priority": 150,
+   "label": "Review the extracted IV therapy.",
+   "requirement_id": "484ade6e-707d-43d7-9685-5f9f48448539"
+  },
+  {
+   "priority": 180,
+   "label": "Ask the candidate to confirm Wound care.",
+   "requirement_id": "1ad4302b-9647-42a3-a074-751596de5823"
+  },
+  {
+   "priority": 180,
+   "label": "Ask the candidate to confirm Medication administration.",
+   "requirement_id": "ddb6a430-5cb8-48a4-aad9-e80f881da25e"
+  }
+ ],
+ "tasks": [],
+ "notes": [],
+ "clearance_blockers": [],
+ "created_at": "2026-10-23T16:05:04.570318"
+}
